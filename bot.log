@@ -1,0 +1,1741 @@
+2026-02-09 13:55:26,505 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 13:55:26,522 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 13:55:26,528 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 13:55:26,528 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 13:55:26,528 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 13:55:26,528 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 13:55:26,618 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 13:55:38,388 - aiogram.event - INFO - Update id=927125197 is handled. Duration 343 ms by bot id=7437910630
+2026-02-09 13:55:40,007 - aiogram.event - INFO - Update id=927125198 is handled. Duration 281 ms by bot id=7437910630
+2026-02-09 13:55:41,837 - aiogram.event - INFO - Update id=927125199 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 13:55:43,170 - aiogram.event - INFO - Update id=927125200 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-09 13:55:48,243 - aiogram.event - INFO - Update id=927125201 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 13:55:51,024 - aiogram.event - INFO - Update id=927125202 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 13:55:56,524 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 13:55:56,525 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 13:55:56 MSK], next run at: 2026-02-09 13:55:56 MSK)" (scheduled at 2026-02-09 13:55:56.506665+03:00)
+2026-02-09 13:55:56,539 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 13:55:56,540 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 13:55:56,540 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 13:55:56 MSK], next run at: 2026-02-09 13:55:56 MSK)" executed successfully
+2026-02-09 13:58:53,661 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 13:58:53,662 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 13:59:04,965 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 14:03:56,612 - aiogram.event - INFO - Update id=927125203 is handled. Duration 406 ms by bot id=7437910630
+2026-02-09 14:03:58,113 - aiogram.event - INFO - Update id=927125204 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 14:04:04,278 - aiogram.event - INFO - Update id=927125205 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 14:05:10,067 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 14:05:10,073 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 14:05:10,340 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 14:16:04,943 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 14:16:04,959 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 14:16:04,963 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 14:16:04,963 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 14:16:04,963 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 14:16:04,963 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 14:16:05,056 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 14:16:34,488 - aiogram.event - INFO - Update id=927125206 is handled. Duration 327 ms by bot id=7437910630
+2026-02-09 14:16:34,955 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 14:16:34,957 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 14:16:34 MSK], next run at: 2026-02-09 14:16:34 MSK)" (scheduled at 2026-02-09 14:16:34.944328+03:00)
+2026-02-09 14:16:34,957 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 14:16:35,437 - __main__ - INFO - Ежедневные уведомления отправлены
+2026-02-09 14:16:35,437 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 14:16:34 MSK], next run at: 2026-02-09 14:16:34 MSK)" executed successfully
+2026-02-09 14:16:42,238 - aiogram.event - INFO - Update id=927125207 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 14:16:43,695 - aiogram.event - INFO - Update id=927125208 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 14:16:45,409 - aiogram.event - INFO - Update id=927125209 is handled. Duration 703 ms by bot id=7437910630
+2026-02-09 14:16:47,151 - aiogram.event - INFO - Update id=927125210 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 14:16:50,742 - aiogram.event - INFO - Update id=927125211 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 14:16:56,308 - aiogram.event - INFO - Update id=927125212 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 14:16:57,512 - aiogram.event - INFO - Update id=927125213 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 14:17:00,148 - aiogram.event - INFO - Update id=927125214 is handled. Duration 890 ms by bot id=7437910630
+2026-02-09 14:17:02,624 - aiogram.event - INFO - Update id=927125215 is handled. Duration 718 ms by bot id=7437910630
+2026-02-09 14:17:04,597 - aiogram.event - INFO - Update id=927125216 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 14:17:05,794 - aiogram.event - INFO - Update id=927125217 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 14:17:07,518 - aiogram.event - INFO - Update id=927125218 is handled. Duration 281 ms by bot id=7437910630
+2026-02-09 14:17:09,396 - aiogram.event - INFO - Update id=927125219 is handled. Duration 625 ms by bot id=7437910630
+2026-02-09 14:17:18,320 - aiogram.event - INFO - Update id=927125220 is handled. Duration 186 ms by bot id=7437910630
+2026-02-09 14:17:21,768 - aiogram.event - INFO - Update id=927125221 is handled. Duration 719 ms by bot id=7437910630
+2026-02-09 14:17:25,448 - aiogram.event - INFO - Update id=927125222 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 14:17:32,210 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 14:17:32,216 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 14:17:32,471 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 16:01:11,106 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:01:11,108 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:01:11,111 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 16:01:11,111 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 16:01:11,111 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 16:01:11,111 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 16:01:11,202 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 16:01:41,109 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 16:01:41,110 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 16:01:41 MSK], next run at: 2026-02-09 16:01:41 MSK)" (scheduled at 2026-02-09 16:01:41.107909+03:00)
+2026-02-09 16:01:41,116 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 16:01:41,116 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 16:01:41,116 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 16:01:41 MSK], next run at: 2026-02-09 16:01:41 MSK)" executed successfully
+2026-02-09 16:07:38,582 - aiogram.event - INFO - Update id=927125223 is handled. Duration 670 ms by bot id=7437910630
+2026-02-09 16:07:40,177 - aiogram.event - INFO - Update id=927125224 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 16:07:41,468 - aiogram.event - INFO - Update id=927125225 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 16:15:00,202 - aiogram.event - INFO - Update id=927125226 is handled. Duration 344 ms by bot id=7437910630
+2026-02-09 16:15:02,581 - aiogram.event - INFO - Update id=927125227 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 16:15:03,845 - aiogram.event - INFO - Update id=927125228 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 16:15:05,385 - aiogram.event - INFO - Update id=927125229 is handled. Duration 467 ms by bot id=7437910630
+2026-02-09 16:15:08,012 - aiogram.event - INFO - Update id=927125230 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 16:15:08,225 - aiogram.event - INFO - Update id=927125231 is handled. Duration 296 ms by bot id=7437910630
+2026-02-09 16:15:14,276 - aiogram.event - INFO - Update id=927125232 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 16:15:26,149 - aiogram.event - INFO - Update id=927125233 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 16:15:41,442 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 16:15:41,444 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 16:15:41,712 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 16:16:40,554 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:16:40,556 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:16:40,558 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 16:16:40,558 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 16:16:40,558 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 16:16:40,558 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 16:16:40,654 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 16:16:48,769 - aiogram.event - INFO - Update id=927125234 is handled. Duration 358 ms by bot id=7437910630
+2026-02-09 16:16:52,785 - aiogram.event - INFO - Update id=927125235 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 16:16:54,570 - aiogram.event - INFO - Update id=927125236 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 16:17:01,240 - aiogram.event - INFO - Update id=927125237 is handled. Duration 468 ms by bot id=7437910630
+2026-02-09 16:17:03,830 - aiogram.event - INFO - Update id=927125238 is handled. Duration 625 ms by bot id=7437910630
+2026-02-09 16:17:10,563 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 16:17:10,563 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 16:17:10 MSK], next run at: 2026-02-09 16:17:10 MSK)" (scheduled at 2026-02-09 16:17:10.555512+03:00)
+2026-02-09 16:17:10,563 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 16:17:10,563 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 16:17:10,563 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 16:17:10 MSK], next run at: 2026-02-09 16:17:10 MSK)" executed successfully
+2026-02-09 16:17:36,992 - aiogram.event - INFO - Update id=927125239 is handled. Duration 421 ms by bot id=7437910630
+2026-02-09 16:17:40,159 - aiogram.event - INFO - Update id=927125240 is handled. Duration 563 ms by bot id=7437910630
+2026-02-09 16:17:41,992 - aiogram.event - INFO - Update id=927125241 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 16:17:44,147 - aiogram.event - INFO - Update id=927125242 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 16:17:44,449 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 16:17:44,451 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 16:17:44,700 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 16:18:34,787 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:18:34,788 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:18:34,790 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 16:18:34,790 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 16:18:34,790 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 16:18:34,790 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 16:18:34,867 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 16:18:36,722 - aiogram.event - INFO - Update id=927125252 is handled. Duration 389 ms by bot id=7437910630
+2026-02-09 16:18:36,862 - aiogram.event - INFO - Update id=927125253 is handled. Duration 421 ms by bot id=7437910630
+2026-02-09 16:18:40,103 - aiogram.event - INFO - Update id=927125254 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 16:18:40,944 - aiogram.event - INFO - Update id=927125255 is handled. Duration 516 ms by bot id=7437910630
+2026-02-09 16:18:45,355 - aiogram.event - INFO - Update id=927125256 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 16:18:45,967 - aiogram.event - INFO - Update id=927125257 is handled. Duration 545 ms by bot id=7437910630
+2026-02-09 16:18:49,574 - aiogram.event - INFO - Update id=927125258 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 16:18:50,428 - aiogram.event - INFO - Update id=927125259 is handled. Duration 594 ms by bot id=7437910630
+2026-02-09 16:18:54,576 - aiogram.event - INFO - Update id=927125260 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 16:18:55,119 - aiogram.event - INFO - Update id=927125261 is handled. Duration 562 ms by bot id=7437910630
+2026-02-09 16:18:58,435 - aiogram.event - INFO - Update id=927125262 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 16:19:00,404 - aiogram.event - INFO - Update id=927125263 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 16:19:04,804 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 16:19:04,805 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 16:19:04 MSK], next run at: 2026-02-09 16:19:04 MSK)" (scheduled at 2026-02-09 16:19:04.787209+03:00)
+2026-02-09 16:19:04,805 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 16:19:04,806 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 16:19:04,806 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 16:19:04 MSK], next run at: 2026-02-09 16:19:04 MSK)" executed successfully
+2026-02-09 16:19:17,957 - aiogram.event - INFO - Update id=927125264 is handled. Duration 295 ms by bot id=7437910630
+2026-02-09 16:19:21,810 - aiogram.event - INFO - Update id=927125265 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 16:19:25,443 - aiogram.event - INFO - Update id=927125266 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 16:19:26,226 - aiogram.event - INFO - Update id=927125267 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 16:19:33,991 - aiogram.event - INFO - Update id=927125268 is handled. Duration 327 ms by bot id=7437910630
+2026-02-09 16:19:36,432 - aiogram.event - INFO - Update id=927125269 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 16:19:38,182 - aiogram.event - INFO - Update id=927125270 is handled. Duration 406 ms by bot id=7437910630
+2026-02-09 16:19:39,470 - aiogram.event - INFO - Update id=927125271 is handled. Duration 342 ms by bot id=7437910630
+2026-02-09 16:19:43,328 - aiogram.event - INFO - Update id=927125272 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 16:19:43,891 - aiogram.event - INFO - Update id=927125273 is handled. Duration 265 ms by bot id=7437910630
+2026-02-09 16:19:51,556 - aiogram.event - INFO - Update id=927125274 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 16:19:52,434 - aiogram.event - INFO - Update id=927125275 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 16:19:56,242 - aiogram.event - INFO - Update id=927125276 is handled. Duration 234 ms by bot id=7437910630
+2026-02-09 16:19:57,940 - aiogram.event - INFO - Update id=927125277 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 16:19:59,352 - aiogram.event - INFO - Update id=927125278 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 16:20:00,463 - aiogram.event - INFO - Update id=927125279 is handled. Duration 342 ms by bot id=7437910630
+2026-02-09 16:20:06,259 - aiogram.event - INFO - Update id=927125280 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 16:20:06,491 - aiogram.event - INFO - Update id=927125281 is handled. Duration 266 ms by bot id=7437910630
+2026-02-09 16:20:13,565 - aiogram.event - INFO - Update id=927125282 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 16:20:15,171 - aiogram.event - INFO - Update id=927125283 is handled. Duration 93 ms by bot id=7437910630
+2026-02-09 16:20:18,831 - aiogram.event - INFO - Update id=927125284 is handled. Duration 328 ms by bot id=7437910630
+2026-02-09 16:20:19,086 - aiogram.event - INFO - Update id=927125285 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 16:20:25,175 - aiogram.event - INFO - Update id=927125286 is handled. Duration 782 ms by bot id=7437910630
+2026-02-09 16:20:26,920 - aiogram.event - INFO - Update id=927125287 is handled. Duration 329 ms by bot id=7437910630
+2026-02-09 16:20:27,432 - aiogram.event - INFO - Update id=927125288 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 16:20:29,297 - aiogram.event - INFO - Update id=927125289 is handled. Duration 266 ms by bot id=7437910630
+2026-02-09 16:20:32,797 - aiogram.event - INFO - Update id=927125290 is handled. Duration 1329 ms by bot id=7437910630
+2026-02-09 16:20:33,570 - aiogram.event - INFO - Update id=927125291 is handled. Duration 1719 ms by bot id=7437910630
+2026-02-09 16:20:36,395 - aiogram.event - INFO - Update id=927125292 is handled. Duration 1218 ms by bot id=7437910630
+2026-02-09 16:20:37,275 - aiogram.event - INFO - Update id=927125293 is handled. Duration 1233 ms by bot id=7437910630
+2026-02-09 16:20:38,113 - aiogram.event - INFO - Update id=927125294 is handled. Duration 1233 ms by bot id=7437910630
+2026-02-09 16:20:39,149 - aiogram.event - INFO - Update id=927125295 is handled. Duration 1358 ms by bot id=7437910630
+2026-02-09 16:20:40,556 - aiogram.event - INFO - Update id=927125296 is handled. Duration 1765 ms by bot id=7437910630
+2026-02-09 16:20:40,780 - aiogram.event - INFO - Update id=927125297 is handled. Duration 1233 ms by bot id=7437910630
+2026-02-09 16:20:41,892 - aiogram.event - INFO - Update id=927125298 is handled. Duration 1390 ms by bot id=7437910630
+2026-02-09 16:20:42,453 - aiogram.event - INFO - Update id=927125299 is handled. Duration 1219 ms by bot id=7437910630
+2026-02-09 16:20:44,591 - aiogram.event - INFO - Update id=927125300 is handled. Duration 1625 ms by bot id=7437910630
+2026-02-09 16:20:45,146 - aiogram.event - INFO - Update id=927125301 is handled. Duration 1733 ms by bot id=7437910630
+2026-02-09 16:20:45,765 - aiogram.event - INFO - Update id=927125302 is handled. Duration 1281 ms by bot id=7437910630
+2026-02-09 16:20:46,302 - aiogram.event - INFO - Update id=927125303 is handled. Duration 1219 ms by bot id=7437910630
+2026-02-09 16:20:47,364 - aiogram.event - INFO - Update id=927125304 is handled. Duration 1391 ms by bot id=7437910630
+2026-02-09 16:20:47,952 - aiogram.event - INFO - Update id=927125305 is handled. Duration 1266 ms by bot id=7437910630
+2026-02-09 16:20:48,986 - aiogram.event - INFO - Update id=927125306 is handled. Duration 1202 ms by bot id=7437910630
+2026-02-09 16:20:49,475 - aiogram.event - INFO - Update id=927125307 is handled. Duration 1218 ms by bot id=7437910630
+2026-02-09 16:20:50,614 - aiogram.event - INFO - Update id=927125308 is handled. Duration 1250 ms by bot id=7437910630
+2026-02-09 16:20:52,430 - aiogram.event - INFO - Update id=927125309 is handled. Duration 1594 ms by bot id=7437910630
+2026-02-09 16:20:52,659 - aiogram.event - INFO - Update id=927125310 is handled. Duration 1266 ms by bot id=7437910630
+2026-02-09 16:20:53,551 - aiogram.event - INFO - Update id=927125311 is handled. Duration 1313 ms by bot id=7437910630
+2026-02-09 16:20:53,950 - aiogram.event - INFO - Update id=927125312 is handled. Duration 1219 ms by bot id=7437910630
+2026-02-09 16:20:54,934 - aiogram.event - INFO - Update id=927125313 is handled. Duration 1281 ms by bot id=7437910630
+2026-02-09 16:20:55,479 - aiogram.event - INFO - Update id=927125314 is handled. Duration 1233 ms by bot id=7437910630
+2026-02-09 16:20:56,557 - aiogram.event - INFO - Update id=927125315 is handled. Duration 1375 ms by bot id=7437910630
+2026-02-09 16:20:57,779 - aiogram.event - INFO - Update id=927125318 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 16:20:58,208 - aiogram.event - INFO - Update id=927125317 is handled. Duration 1311 ms by bot id=7437910630
+2026-02-09 16:20:58,327 - aiogram.event - INFO - Update id=927125316 is handled. Duration 1813 ms by bot id=7437910630
+2026-02-09 16:20:59,366 - aiogram.event - INFO - Update id=927125319 is handled. Duration 1266 ms by bot id=7437910630
+2026-02-09 16:21:02,104 - aiogram.event - INFO - Update id=927125321 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 16:21:02,868 - aiogram.event - INFO - Update id=927125320 is handled. Duration 2171 ms by bot id=7437910630
+2026-02-09 16:21:10,281 - aiogram.event - INFO - Update id=927125322 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 16:21:11,083 - aiogram.event - INFO - Update id=927125323 is handled. Duration 452 ms by bot id=7437910630
+2026-02-09 16:21:13,640 - aiogram.event - INFO - Update id=927125324 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 16:21:14,120 - aiogram.event - INFO - Update id=927125325 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 16:23:48,319 - aiogram.event - INFO - Update id=927125326 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 16:23:54,352 - aiogram.event - INFO - Update id=927125327 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 16:23:56,289 - aiogram.event - INFO - Update id=927125328 is handled. Duration 204 ms by bot id=7437910630
+2026-02-09 16:24:13,885 - aiogram.event - INFO - Update id=927125329 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 16:44:04,131 - aiogram.event - INFO - Update id=927125330 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 16:44:05,457 - aiogram.event - INFO - Update id=927125331 is handled. Duration 110 ms by bot id=7437910630
+2026-02-09 16:58:45,773 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 16:58:45,774 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 16:58:57,083 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 16:59:07,532 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 16:59:07,533 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 16:59:18,808 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 16:59:18,809 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 16:59:18,809 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 16:59:30,136 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:05:55,600 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:05:55,602 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:06:06,862 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:06:27,362 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:06:27,363 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:06:38,647 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:07:39,147 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:07:39,148 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:07:50,437 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:11:42,800 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:11:42,800 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:11:54,082 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:13:45,531 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:13:45,532 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:13:56,827 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:13:56,830 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:13:56,831 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:14:08,093 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:15:19,040 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-02-09 17:15:19,043 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:15:30,324 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:15:30,325 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:15:30,325 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:15:41,589 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:23:57,133 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:23:57,134 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:24:08,404 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:28:31,569 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:28:31,569 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:28:42,835 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:29:23,505 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:29:23,505 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:29:45,550 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2026-02-09 17:29:45,550 - aiogram.dispatcher - WARNING - Sleep for 1.424390 seconds and try again... (tryings = 1, bot id = 7437910630)
+2026-02-09 17:30:04,343 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7437910630)
+2026-02-09 17:35:58,686 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 17:35:58,687 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:36:09,999 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 17:36:50,447 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] Указанное сетевое имя более недоступно
+2026-02-09 17:36:50,453 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 17:37:13,829 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2026-02-09 17:37:13,829 - aiogram.dispatcher - WARNING - Sleep for 1.420309 seconds and try again... (tryings = 1, bot id = 7437910630)
+2026-02-09 17:37:25,493 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7437910630)
+2026-02-09 17:43:13,680 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 17:43:13,695 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 17:43:13,962 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 19:16:10,418 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:16:10,420 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:16:10,423 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 19:16:10,423 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 19:16:10,423 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 19:16:10,423 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 19:16:10,520 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 19:16:34,824 - aiogram.event - INFO - Update id=927125332 is handled. Duration 515 ms by bot id=7437910630
+2026-02-09 19:16:40,432 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 19:16:40,433 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 19:16:40 MSK], next run at: 2026-02-09 19:16:40 MSK)" (scheduled at 2026-02-09 19:16:40.418028+03:00)
+2026-02-09 19:16:40,440 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 19:16:40,441 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 19:16:40,441 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 19:16:40 MSK], next run at: 2026-02-09 19:16:40 MSK)" executed successfully
+2026-02-09 19:17:10,394 - aiogram.event - INFO - Update id=927125333 is handled. Duration 312 ms by bot id=7437910630
+2026-02-09 19:18:56,563 - aiogram.event - INFO - Update id=927125334 is handled. Duration 454 ms by bot id=7437910630
+2026-02-09 19:19:00,852 - aiogram.event - INFO - Update id=927125335 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 19:19:03,803 - aiogram.event - INFO - Update id=927125336 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 19:19:04,436 - aiogram.event - INFO - Update id=927125337 is handled. Duration 93 ms by bot id=7437910630
+2026-02-09 19:19:07,108 - aiogram.event - INFO - Update id=927125338 is handled. Duration 125 ms by bot id=7437910630
+2026-02-09 19:19:23,469 - aiogram.event - INFO - Update id=927125339 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 19:19:24,855 - aiogram.event - INFO - Update id=927125340 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 19:19:25,970 - aiogram.event - INFO - Update id=927125341 is handled. Duration 125 ms by bot id=7437910630
+2026-02-09 19:19:40,341 - aiogram.event - INFO - Update id=927125342 is handled. Duration 469 ms by bot id=7437910630
+2026-02-09 19:19:51,148 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 19:19:51,150 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 19:19:51,413 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 19:20:44,503 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:20:44,504 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:20:44,506 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 19:20:44,506 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 19:20:44,506 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 19:20:44,506 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 19:20:44,601 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 19:20:51,799 - aiogram.event - INFO - Update id=927125343 is handled. Duration 391 ms by bot id=7437910630
+2026-02-09 19:20:53,179 - aiogram.event - INFO - Update id=927125344 is handled. Duration 204 ms by bot id=7437910630
+2026-02-09 19:20:55,667 - aiogram.event - INFO - Update id=927125345 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 19:20:57,048 - aiogram.event - INFO - Update id=927125346 is handled. Duration 358 ms by bot id=7437910630
+2026-02-09 19:21:06,772 - aiogram.event - INFO - Update id=927125347 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 19:21:09,063 - aiogram.event - INFO - Update id=927125348 is handled. Duration 204 ms by bot id=7437910630
+2026-02-09 19:21:10,914 - aiogram.event - INFO - Update id=927125349 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 19:21:12,661 - aiogram.event - INFO - Update id=927125350 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 19:21:14,513 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 19:21:14,514 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 19:21:14 MSK], next run at: 2026-02-09 19:21:14 MSK)" (scheduled at 2026-02-09 19:21:14.503893+03:00)
+2026-02-09 19:21:14,514 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 19:21:14,515 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 19:21:14,515 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 19:21:14 MSK], next run at: 2026-02-09 19:21:14 MSK)" executed successfully
+2026-02-09 19:21:16,220 - aiogram.event - INFO - Update id=927125351 is handled. Duration 328 ms by bot id=7437910630
+2026-02-09 19:21:18,343 - aiogram.event - INFO - Update id=927125352 is handled. Duration 578 ms by bot id=7437910630
+2026-02-09 19:21:20,469 - aiogram.event - INFO - Update id=927125353 is handled. Duration 235 ms by bot id=7437910630
+2026-02-09 19:21:23,125 - aiogram.event - INFO - Update id=927125354 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 19:21:24,464 - aiogram.event - INFO - Update id=927125355 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 19:21:25,589 - aiogram.event - INFO - Update id=927125356 is handled. Duration 328 ms by bot id=7437910630
+2026-02-09 19:21:29,778 - aiogram.event - INFO - Update id=927125357 is handled. Duration 327 ms by bot id=7437910630
+2026-02-09 19:21:31,148 - aiogram.event - INFO - Update id=927125358 is handled. Duration 281 ms by bot id=7437910630
+2026-02-09 19:21:34,701 - aiogram.event - INFO - Update id=927125359 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 19:21:36,166 - aiogram.event - INFO - Update id=927125360 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 19:21:38,658 - aiogram.event - INFO - Update id=927125361 is handled. Duration 358 ms by bot id=7437910630
+2026-02-09 19:33:29,356 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 19:33:29,360 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 19:33:29,621 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 19:46:45,831 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:46:45,834 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:46:45,837 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 19:46:45,837 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 19:46:45,837 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 19:46:45,838 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 19:46:48,759 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 19:47:02,800 - aiogram.event - INFO - Update id=927125362 is handled. Duration 6452 ms by bot id=7437910630
+2026-02-09 19:47:14,936 - aiogram.event - INFO - Update id=927125363 is handled. Duration 6532 ms by bot id=7437910630
+2026-02-09 19:47:15,851 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 19:47:15,851 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 19:47:15 MSK], next run at: 2026-02-09 19:47:15 MSK)" (scheduled at 2026-02-09 19:47:15.832934+03:00)
+2026-02-09 19:47:15,854 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 19:47:15,855 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 19:47:15,855 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 19:47:15 MSK], next run at: 2026-02-09 19:47:15 MSK)" executed successfully
+2026-02-09 19:49:26,128 - aiogram.event - INFO - Update id=927125365 is handled. Duration 718 ms by bot id=7437910630
+2026-02-09 19:49:26,816 - aiogram.event - INFO - Update id=927125364 is handled. Duration 1579 ms by bot id=7437910630
+2026-02-09 19:49:28,365 - aiogram.event - INFO - Update id=927125366 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 19:49:29,367 - aiogram.event - INFO - Update id=927125367 is handled. Duration 530 ms by bot id=7437910630
+2026-02-09 19:49:32,522 - aiogram.event - INFO - Update id=927125368 is handled. Duration 186 ms by bot id=7437910630
+2026-02-09 19:49:33,260 - aiogram.event - INFO - Update id=927125369 is handled. Duration 782 ms by bot id=7437910630
+2026-02-09 19:49:36,593 - aiogram.event - INFO - Update id=927125370 is handled. Duration 297 ms by bot id=7437910630
+2026-02-09 19:49:37,689 - aiogram.event - INFO - Update id=927125371 is handled. Duration 1218 ms by bot id=7437910630
+2026-02-09 19:49:40,955 - aiogram.event - INFO - Update id=927125372 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 19:49:41,910 - aiogram.event - INFO - Update id=927125373 is handled. Duration 967 ms by bot id=7437910630
+2026-02-09 19:49:45,996 - aiogram.event - INFO - Update id=927125374 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 19:49:48,891 - aiogram.event - INFO - Update id=927125375 is handled. Duration 2859 ms by bot id=7437910630
+2026-02-09 19:50:39,883 - aiogram.event - INFO - Update id=927125376 is handled. Duration 843 ms by bot id=7437910630
+2026-02-09 19:50:42,865 - aiogram.event - INFO - Update id=927125377 is handled. Duration 155 ms by bot id=7437910630
+2026-02-09 19:51:15,176 - aiogram.event - INFO - Update id=927125378 is handled. Duration 733 ms by bot id=7437910630
+2026-02-09 19:51:16,255 - aiogram.event - INFO - Update id=927125379 is handled. Duration 266 ms by bot id=7437910630
+2026-02-09 19:51:18,923 - aiogram.event - INFO - Update id=927125380 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 19:51:19,471 - aiogram.event - INFO - Update id=927125381 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 19:51:31,755 - aiogram.event - INFO - Update id=927125383 is handled. Duration 546 ms by bot id=7437910630
+2026-02-09 19:51:32,184 - aiogram.event - INFO - Update id=927125382 is handled. Duration 1500 ms by bot id=7437910630
+2026-02-09 19:51:33,467 - aiogram.event - INFO - Update id=927125384 is handled. Duration 610 ms by bot id=7437910630
+2026-02-09 19:51:35,408 - aiogram.event - INFO - Update id=927125385 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 19:51:36,246 - aiogram.event - INFO - Update id=927125386 is handled. Duration 483 ms by bot id=7437910630
+2026-02-09 19:51:48,024 - aiogram.event - INFO - Update id=927125387 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 19:52:22,288 - aiogram.event - INFO - Update id=927125388 is handled. Duration 313 ms by bot id=7437910630
+2026-02-09 19:52:22,435 - aiogram.event - INFO - Update id=927125390 is handled. Duration 343 ms by bot id=7437910630
+2026-02-09 19:52:22,439 - aiogram.event - INFO - Update id=927125389 is handled. Duration 343 ms by bot id=7437910630
+2026-02-09 19:52:30,164 - aiogram.event - INFO - Update id=927125391 is handled. Duration 438 ms by bot id=7437910630
+2026-02-09 19:52:30,244 - aiogram.event - INFO - Update id=927125392 is handled. Duration 391 ms by bot id=7437910630
+2026-02-09 19:52:39,058 - aiogram.event - INFO - Update id=927125393 is handled. Duration 484 ms by bot id=7437910630
+2026-02-09 19:52:39,764 - aiogram.event - INFO - Update id=927125394 is handled. Duration 312 ms by bot id=7437910630
+2026-02-09 19:52:41,687 - aiogram.event - INFO - Update id=927125395 is handled. Duration 968 ms by bot id=7437910630
+2026-02-09 19:52:41,962 - aiogram.event - INFO - Update id=927125396 is handled. Duration 313 ms by bot id=7437910630
+2026-02-09 19:53:56,497 - aiogram.event - INFO - Update id=927125398 is handled. Duration 1233 ms by bot id=7437910630
+2026-02-09 19:53:57,124 - aiogram.event - INFO - Update id=927125397 is handled. Duration 2296 ms by bot id=7437910630
+2026-02-09 19:54:51,608 - aiogram.event - INFO - Update id=927125399 is handled. Duration 420 ms by bot id=7437910630
+2026-02-09 19:54:52,167 - aiogram.event - INFO - Update id=927125400 is handled. Duration 641 ms by bot id=7437910630
+2026-02-09 19:54:53,690 - aiogram.event - INFO - Update id=927125401 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 19:54:54,455 - aiogram.event - INFO - Update id=927125402 is handled. Duration 469 ms by bot id=7437910630
+2026-02-09 19:54:56,467 - aiogram.event - INFO - Update id=927125403 is handled. Duration 313 ms by bot id=7437910630
+2026-02-09 19:54:58,218 - aiogram.event - INFO - Update id=927125404 is handled. Duration 1750 ms by bot id=7437910630
+2026-02-09 19:54:58,839 - aiogram.event - INFO - Update id=927125405 is handled. Duration 156 ms by bot id=7437910630
+2026-02-09 19:54:59,868 - aiogram.event - INFO - Update id=927125406 is handled. Duration 468 ms by bot id=7437910630
+2026-02-09 19:55:02,777 - aiogram.event - INFO - Update id=927125407 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 19:55:03,795 - aiogram.event - INFO - Update id=927125408 is handled. Duration 1000 ms by bot id=7437910630
+2026-02-09 19:55:07,032 - aiogram.event - INFO - Update id=927125409 is handled. Duration 172 ms by bot id=7437910630
+2026-02-09 19:55:07,873 - aiogram.event - INFO - Update id=927125410 is handled. Duration 593 ms by bot id=7437910630
+2026-02-09 19:55:11,164 - aiogram.event - INFO - Update id=927125411 is handled. Duration 172 ms by bot id=7437910630
+2026-02-09 19:55:15,013 - aiogram.event - INFO - Update id=927125412 is handled. Duration 3702 ms by bot id=7437910630
+2026-02-09 19:55:26,401 - aiogram.event - INFO - Update id=927125413 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 19:55:30,026 - aiogram.event - INFO - Update id=927125414 is handled. Duration 750 ms by bot id=7437910630
+2026-02-09 19:55:33,373 - aiogram.event - INFO - Update id=927125415 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 19:55:46,504 - aiogram.event - INFO - Update id=927125416 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 20:17:07,419 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 20:17:07,486 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 20:17:07,879 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 20:17:28,699 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 20:17:28,703 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 20:17:28,709 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 20:17:28,709 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 20:17:28,709 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 20:17:28,710 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 20:17:28,887 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 20:17:43,809 - aiogram.event - INFO - Update id=927125417 is handled. Duration 813 ms by bot id=7437910630
+2026-02-09 20:17:45,185 - aiogram.event - INFO - Update id=927125418 is handled. Duration 234 ms by bot id=7437910630
+2026-02-09 20:17:47,105 - aiogram.event - INFO - Update id=927125419 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 20:17:51,024 - aiogram.event - INFO - Update id=927125420 is handled. Duration 125 ms by bot id=7437910630
+2026-02-09 20:17:53,351 - aiogram.event - INFO - Update id=927125421 is handled. Duration 125 ms by bot id=7437910630
+2026-02-09 20:17:56,369 - aiogram.event - INFO - Update id=927125422 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 20:17:58,717 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 20:17:58,718 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 20:17:58 MSK], next run at: 2026-02-09 20:17:58 MSK)" (scheduled at 2026-02-09 20:17:58.700772+03:00)
+2026-02-09 20:17:58,737 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 20:17:58,737 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 20:17:58,737 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 20:17:58 MSK], next run at: 2026-02-09 20:17:58 MSK)" executed successfully
+2026-02-09 20:17:59,048 - aiogram.event - INFO - Update id=927125423 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 20:18:01,777 - aiogram.event - INFO - Update id=927125424 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 20:26:16,360 - aiogram.event - INFO - Update id=927125425 is handled. Duration 670 ms by bot id=7437910630
+2026-02-09 20:26:20,685 - aiogram.event - INFO - Update id=927125426 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 20:26:22,503 - aiogram.event - INFO - Update id=927125427 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 20:59:54,776 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] Указанное сетевое имя более недоступно
+2026-02-09 20:59:54,782 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 21:00:06,116 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 21:16:11,489 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 21:16:11,513 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 21:16:11,790 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 21:16:25,352 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 21:16:25,356 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 21:16:25,360 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 21:16:25,360 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 21:16:25,360 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 21:16:25,360 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 21:16:25,445 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 21:16:47,030 - aiogram.event - INFO - Update id=927125428 is handled. Duration 358 ms by bot id=7437910630
+2026-02-09 21:16:51,416 - aiogram.event - INFO - Update id=927125429 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 21:16:55,353 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 21:16:55,353 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 21:16:55 MSK], next run at: 2026-02-09 21:16:55 MSK)" (scheduled at 2026-02-09 21:16:55.352659+03:00)
+2026-02-09 21:16:55,353 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 21:16:55,353 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 21:16:55,353 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 21:16:55 MSK], next run at: 2026-02-09 21:16:55 MSK)" executed successfully
+2026-02-09 21:16:56,721 - aiogram.event - INFO - Update id=927125430 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 21:17:07,409 - aiogram.event - INFO - Update id=927125431 is handled. Duration 186 ms by bot id=7437910630
+2026-02-09 21:17:09,134 - aiogram.event - INFO - Update id=927125432 is handled. Duration 327 ms by bot id=7437910630
+2026-02-09 21:17:26,803 - aiogram.event - INFO - Update id=927125433 is handled. Duration 500 ms by bot id=7437910630
+2026-02-09 21:17:31,985 - aiogram.event - INFO - Update id=927125434 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 21:17:38,818 - aiogram.event - INFO - Update id=927125435 is handled. Duration 265 ms by bot id=7437910630
+2026-02-09 21:17:44,558 - aiogram.event - INFO - Update id=927125436 is handled. Duration 641 ms by bot id=7437910630
+2026-02-09 21:17:45,816 - aiogram.event - INFO - Update id=927125437 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 21:17:53,641 - aiogram.event - INFO - Update id=927125438 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 21:17:55,953 - aiogram.event - INFO - Update id=927125439 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 21:18:01,651 - aiogram.event - INFO - Update id=927125440 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 21:18:03,577 - aiogram.event - INFO - Update id=927125441 is handled. Duration 265 ms by bot id=7437910630
+2026-02-09 21:18:07,608 - aiogram.event - INFO - Update id=927125442 is handled. Duration 405 ms by bot id=7437910630
+2026-02-09 21:18:10,779 - aiogram.event - INFO - Update id=927125443 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 21:18:23,002 - aiogram.event - INFO - Update id=927125444 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 21:18:32,060 - aiogram.event - INFO - Update id=927125445 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 21:18:38,358 - aiogram.event - INFO - Update id=927125446 is handled. Duration 389 ms by bot id=7437910630
+2026-02-09 21:18:40,074 - aiogram.event - INFO - Update id=927125447 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 21:18:41,753 - aiogram.event - INFO - Update id=927125448 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 21:18:54,324 - aiogram.event - INFO - Update id=927125449 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 21:18:58,704 - aiogram.event - INFO - Update id=927125450 is handled. Duration 828 ms by bot id=7437910630
+2026-02-09 21:19:37,029 - aiogram.event - INFO - Update id=927125451 is handled. Duration 422 ms by bot id=7437910630
+2026-02-09 21:19:52,260 - aiogram.event - INFO - Update id=927125452 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 21:20:32,850 - aiogram.event - INFO - Update id=927125453 is not handled. Duration 14 ms by bot id=7437910630
+2026-02-09 21:20:34,770 - aiogram.event - INFO - Update id=927125454 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-09 21:20:35,477 - aiogram.event - INFO - Update id=927125455 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 21:20:36,878 - aiogram.event - INFO - Update id=927125456 is handled. Duration 625 ms by bot id=7437910630
+2026-02-09 21:20:38,187 - aiogram.event - INFO - Update id=927125457 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 21:45:02,255 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 21:45:02,260 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 21:45:13,731 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 21:46:04,580 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-09 21:46:04,580 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-09 21:46:15,851 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-09 21:52:33,906 - aiogram.event - INFO - Update id=927125458 is handled. Duration 515 ms by bot id=7437910630
+2026-02-09 21:52:48,721 - aiogram.event - INFO - Update id=927125459 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 21:52:49,957 - aiogram.event - INFO - Update id=927125460 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 21:52:52,101 - aiogram.event - INFO - Update id=927125461 is handled. Duration 139 ms by bot id=7437910630
+2026-02-09 21:52:53,809 - aiogram.event - INFO - Update id=927125462 is handled. Duration 204 ms by bot id=7437910630
+2026-02-09 21:57:07,446 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 21:57:07,461 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 21:57:07,746 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 21:57:30,808 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 21:57:30,824 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 21:57:30,829 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 21:57:30,829 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 21:57:30,829 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 21:57:30,829 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 21:57:30,921 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 21:57:52,277 - aiogram.event - INFO - Update id=927125463 is handled. Duration 406 ms by bot id=7437910630
+2026-02-09 21:57:53,715 - aiogram.event - INFO - Update id=927125464 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 21:57:56,598 - aiogram.event - INFO - Update id=927125465 is handled. Duration 406 ms by bot id=7437910630
+2026-02-09 21:57:58,912 - aiogram.event - INFO - Update id=927125466 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 21:58:00,815 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 21:58:00,816 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 21:58:00 MSK], next run at: 2026-02-09 21:58:00 MSK)" (scheduled at 2026-02-09 21:58:00.808548+03:00)
+2026-02-09 21:58:00,830 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 21:58:00,830 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 21:58:00,831 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 21:58:00 MSK], next run at: 2026-02-09 21:58:00 MSK)" executed successfully
+2026-02-09 21:58:01,317 - aiogram.event - INFO - Update id=927125467 is handled. Duration 468 ms by bot id=7437910630
+2026-02-09 21:58:02,461 - aiogram.event - INFO - Update id=927125468 is handled. Duration 313 ms by bot id=7437910630
+2026-02-09 21:58:03,742 - aiogram.event - INFO - Update id=927125469 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 21:58:04,757 - aiogram.event - INFO - Update id=927125470 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 21:58:07,269 - aiogram.event - INFO - Update id=927125471 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 22:08:59,305 - aiogram.event - INFO - Update id=927125472 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 22:14:19,505 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 22:14:19,513 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 22:14:19,795 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 22:14:53,710 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 22:14:53,714 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 22:14:53,720 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 22:14:53,720 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 22:14:53,720 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 22:14:53,721 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 22:14:53,804 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 22:15:23,719 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 22:15:23,720 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 22:15:23 MSK], next run at: 2026-02-09 22:15:23 MSK)" (scheduled at 2026-02-09 22:15:23.711704+03:00)
+2026-02-09 22:15:23,720 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 22:15:23,721 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 22:15:23,721 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 22:15:23 MSK], next run at: 2026-02-09 22:15:23 MSK)" executed successfully
+2026-02-09 22:15:41,697 - aiogram.event - INFO - Update id=927125473 is handled. Duration 406 ms by bot id=7437910630
+2026-02-09 22:15:44,502 - aiogram.event - INFO - Update id=927125474 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 22:16:11,496 - aiogram.event - INFO - Update id=927125475 is handled. Duration 391 ms by bot id=7437910630
+2026-02-09 22:16:14,364 - aiogram.event - INFO - Update id=927125476 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:16:17,937 - aiogram.event - INFO - Update id=927125477 is handled. Duration 297 ms by bot id=7437910630
+2026-02-09 22:16:19,144 - aiogram.event - INFO - Update id=927125478 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 22:16:33,772 - aiogram.event - INFO - Update id=927125479 is handled. Duration 592 ms by bot id=7437910630
+2026-02-09 22:16:36,125 - aiogram.event - INFO - Update id=927125480 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 22:16:41,237 - aiogram.event - INFO - Update id=927125481 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 22:16:47,253 - aiogram.event - INFO - Update id=927125482 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-09 22:16:55,292 - aiogram.event - INFO - Update id=927125483 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-09 22:16:59,197 - aiogram.event - INFO - Update id=927125484 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 22:33:05,713 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 22:33:05,718 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 22:33:05,985 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 22:33:30,422 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 22:33:30,424 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 22:33:30,426 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 22:33:30,426 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 22:33:30,426 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 22:33:30,426 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 22:33:30,524 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 22:33:38,881 - aiogram.event - INFO - Update id=927125485 is handled. Duration 452 ms by bot id=7437910630
+2026-02-09 22:33:42,165 - aiogram.event - INFO - Update id=927125486 is handled. Duration 266 ms by bot id=7437910630
+2026-02-09 22:33:44,353 - aiogram.event - INFO - Update id=927125487 is handled. Duration 217 ms by bot id=7437910630
+2026-02-09 22:33:46,604 - aiogram.event - INFO - Update id=927125488 is handled. Duration 592 ms by bot id=7437910630
+2026-02-09 22:33:48,663 - aiogram.event - INFO - Update id=927125489 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 22:33:49,948 - aiogram.event - INFO - Update id=927125490 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 22:34:00,434 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 22:34:00,434 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 22:34:00 MSK], next run at: 2026-02-09 22:34:00 MSK)" (scheduled at 2026-02-09 22:34:00.422124+03:00)
+2026-02-09 22:34:00,434 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 22:34:00,434 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 22:34:00,435 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 22:34:00 MSK], next run at: 2026-02-09 22:34:00 MSK)" executed successfully
+2026-02-09 22:34:05,679 - aiogram.event - INFO - Update id=927125491 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 22:34:11,393 - aiogram.event - INFO - Update id=927125492 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:34:13,397 - aiogram.event - INFO - Update id=927125493 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:34:15,733 - aiogram.event - INFO - Update id=927125494 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:34:19,809 - aiogram.event - INFO - Update id=927125495 is handled. Duration 609 ms by bot id=7437910630
+2026-02-09 22:34:21,147 - aiogram.event - INFO - Update id=927125496 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 22:34:23,050 - aiogram.event - INFO - Update id=927125497 is handled. Duration 93 ms by bot id=7437910630
+2026-02-09 22:34:24,728 - aiogram.event - INFO - Update id=927125498 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:34:26,456 - aiogram.event - INFO - Update id=927125499 is handled. Duration 187 ms by bot id=7437910630
+2026-02-09 22:34:28,458 - aiogram.event - INFO - Update id=927125500 is handled. Duration 219 ms by bot id=7437910630
+2026-02-09 22:34:31,590 - aiogram.event - INFO - Update id=927125501 is handled. Duration 328 ms by bot id=7437910630
+2026-02-09 22:35:32,415 - aiogram.event - INFO - Update id=927125502 is handled. Duration 468 ms by bot id=7437910630
+2026-02-09 22:35:33,801 - aiogram.event - INFO - Update id=927125503 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 22:35:35,115 - aiogram.event - INFO - Update id=927125504 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:35:36,743 - aiogram.event - INFO - Update id=927125505 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 22:35:38,076 - aiogram.event - INFO - Update id=927125506 is handled. Duration 344 ms by bot id=7437910630
+2026-02-09 22:35:39,614 - aiogram.event - INFO - Update id=927125507 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:35:42,618 - aiogram.event - INFO - Update id=927125508 is handled. Duration 233 ms by bot id=7437910630
+2026-02-09 22:35:44,395 - aiogram.event - INFO - Update id=927125509 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 22:35:46,965 - aiogram.event - INFO - Update id=927125510 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 22:35:50,816 - aiogram.event - INFO - Update id=927125511 is handled. Duration 250 ms by bot id=7437910630
+2026-02-09 22:35:52,100 - aiogram.event - INFO - Update id=927125512 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 22:36:09,743 - aiogram.event - INFO - Update id=927125513 is handled. Duration 280 ms by bot id=7437910630
+2026-02-09 22:36:13,245 - aiogram.event - INFO - Update id=927125514 is handled. Duration 186 ms by bot id=7437910630
+2026-02-09 22:37:04,383 - aiogram.event - INFO - Update id=927125515 is handled. Duration 421 ms by bot id=7437910630
+2026-02-09 22:37:16,717 - aiogram.event - INFO - Update id=927125516 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 22:37:18,082 - aiogram.event - INFO - Update id=927125517 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 22:37:22,298 - aiogram.event - INFO - Update id=927125518 is handled. Duration 202 ms by bot id=7437910630
+2026-02-09 22:37:25,286 - aiogram.event - INFO - Update id=927125519 is handled. Duration 358 ms by bot id=7437910630
+2026-02-09 22:37:31,048 - aiogram.event - INFO - Update id=927125520 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 22:37:34,006 - aiogram.event - INFO - Update id=927125521 is handled. Duration 109 ms by bot id=7437910630
+2026-02-09 22:37:40,048 - aiogram.event - INFO - Update id=927125522 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 22:37:42,917 - aiogram.event - INFO - Update id=927125523 is handled. Duration 108 ms by bot id=7437910630
+2026-02-09 22:37:48,327 - aiogram.event - INFO - Update id=927125524 is handled. Duration 265 ms by bot id=7437910630
+2026-02-09 22:38:00,189 - aiogram.event - INFO - Update id=927125525 is handled. Duration 313 ms by bot id=7437910630
+2026-02-09 23:09:30,883 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 23:09:30,905 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 23:09:31,176 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:10:08,752 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:10:08,755 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:10:08,758 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:10:08,758 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:10:08,758 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 23:10:08,758 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 23:10:08,855 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:10:38,759 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 23:10:38,760 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 23:10:38 MSK], next run at: 2026-02-09 23:10:38 MSK)" (scheduled at 2026-02-09 23:10:38.752720+03:00)
+2026-02-09 23:10:38,761 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 23:10:38,761 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 23:10:38,762 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 23:10:38 MSK], next run at: 2026-02-09 23:10:38 MSK)" executed successfully
+2026-02-09 23:10:58,997 - aiogram.event - INFO - Update id=927125526 is handled. Duration 359 ms by bot id=7437910630
+2026-02-09 23:11:06,195 - aiogram.event - INFO - Update id=927125527 is handled. Duration 203 ms by bot id=7437910630
+2026-02-09 23:11:08,808 - aiogram.event - INFO - Update id=927125528 is handled. Duration 328 ms by bot id=7437910630
+2026-02-09 23:11:10,123 - aiogram.event - INFO - Update id=927125529 is handled. Duration 266 ms by bot id=7437910630
+2026-02-09 23:11:12,066 - aiogram.event - INFO - Update id=927125530 is handled. Duration 172 ms by bot id=7437910630
+2026-02-09 23:11:14,626 - aiogram.event - INFO - Update id=927125531 is handled. Duration 187 ms by bot id=7437910630
+2026-02-09 23:11:16,013 - aiogram.event - INFO - Update id=927125532 is handled. Duration 186 ms by bot id=7437910630
+2026-02-09 23:11:20,824 - aiogram.event - INFO - Update id=927125533 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 23:11:24,534 - aiogram.event - INFO - Update id=927125534 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 23:11:27,908 - aiogram.event - INFO - Update id=927125535 is handled. Duration 327 ms by bot id=7437910630
+2026-02-09 23:11:29,523 - aiogram.event - INFO - Update id=927125536 is handled. Duration 186 ms by bot id=7437910630
+2026-02-09 23:11:32,536 - aiogram.event - INFO - Update id=927125537 is handled. Duration 93 ms by bot id=7437910630
+2026-02-09 23:11:40,352 - aiogram.event - INFO - Update id=927125538 is handled. Duration 375 ms by bot id=7437910630
+2026-02-09 23:11:44,982 - aiogram.event - INFO - Update id=927125539 is handled. Duration 516 ms by bot id=7437910630
+2026-02-09 23:28:05,710 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 23:28:05,714 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 23:28:05,975 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:28:23,703 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:28:23,705 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:28:23,708 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:28:23,708 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:28:23,708 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 23:28:23,708 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 23:28:23,801 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:28:49,036 - aiogram.event - INFO - Update id=927125540 is handled. Duration 343 ms by bot id=7437910630
+2026-02-09 23:28:52,343 - aiogram.event - INFO - Update id=927125541 is handled. Duration 188 ms by bot id=7437910630
+2026-02-09 23:28:53,563 - aiogram.event - INFO - Update id=927125542 is handled. Duration 79 ms by bot id=7437910630
+2026-02-09 23:28:53,724 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 23:28:53,725 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 23:28:53 MSK], next run at: 2026-02-09 23:28:53 MSK)" (scheduled at 2026-02-09 23:28:53.704142+03:00)
+2026-02-09 23:28:53,725 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 23:28:53,725 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 23:28:53,725 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 23:28:53 MSK], next run at: 2026-02-09 23:28:53 MSK)" executed successfully
+2026-02-09 23:28:58,623 - aiogram.event - INFO - Update id=927125543 is handled. Duration 358 ms by bot id=7437910630
+2026-02-09 23:29:01,016 - aiogram.event - INFO - Update id=927125544 is handled. Duration 500 ms by bot id=7437910630
+2026-02-09 23:29:06,637 - aiogram.event - INFO - Update id=927125545 is handled. Duration 407 ms by bot id=7437910630
+2026-02-09 23:29:09,589 - aiogram.event - INFO - Update id=927125546 is handled. Duration 156 ms by bot id=7437910630
+2026-02-09 23:38:14,015 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 23:38:14,023 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 23:38:14,286 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:38:27,844 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:38:27,846 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:38:27,849 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:38:27,849 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:38:27,849 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 23:38:27,849 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 23:38:27,941 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:38:57,855 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 23:38:57,856 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 23:38:57 MSK], next run at: 2026-02-09 23:38:57 MSK)" (scheduled at 2026-02-09 23:38:57.844017+03:00)
+2026-02-09 23:38:57,857 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 23:38:57,857 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 23:38:57,857 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 23:38:57 MSK], next run at: 2026-02-09 23:38:57 MSK)" executed successfully
+2026-02-09 23:39:26,201 - aiogram.event - INFO - Update id=927125547 is handled. Duration 266 ms by bot id=7437910630
+2026-02-09 23:39:28,727 - aiogram.event - INFO - Update id=927125548 is handled. Duration 391 ms by bot id=7437910630
+2026-02-09 23:39:30,694 - aiogram.event - INFO - Update id=927125549 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 23:39:34,621 - aiogram.event - INFO - Update id=927125550 is handled. Duration 204 ms by bot id=7437910630
+2026-02-09 23:39:36,049 - aiogram.event - INFO - Update id=927125551 is handled. Duration 218 ms by bot id=7437910630
+2026-02-09 23:39:40,917 - aiogram.event - INFO - Update id=927125552 is handled. Duration 420 ms by bot id=7437910630
+2026-02-09 23:41:49,221 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 23:41:49,226 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 23:41:49,482 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:42:00,907 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:42:00,909 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 23:42:00,911 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:42:00,911 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-09 23:42:00,911 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 23:42:00,911 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 23:42:01,002 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-09 23:42:07,536 - aiogram.event - INFO - Update id=927125553 is handled. Duration 235 ms by bot id=7437910630
+2026-02-09 23:42:15,210 - aiogram.event - INFO - Update id=927125554 is handled. Duration 93 ms by bot id=7437910630
+2026-02-09 23:42:17,652 - aiogram.event - INFO - Update id=927125555 is handled. Duration 94 ms by bot id=7437910630
+2026-02-09 23:42:30,919 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-09 23:42:30,921 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-09 23:42:30 MSK], next run at: 2026-02-09 23:42:30 MSK)" (scheduled at 2026-02-09 23:42:30.907617+03:00)
+2026-02-09 23:42:30,922 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-09 23:42:30,923 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-09 23:42:30,923 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-09 23:42:30 MSK], next run at: 2026-02-09 23:42:30 MSK)" executed successfully
+2026-02-10 00:02:02,550 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 00:02:02,560 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 00:02:02,814 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:07:12,736 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:07:12,738 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:07:12,740 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:07:12,741 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:07:12,741 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 00:07:12,741 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 00:07:12,829 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:07:27,795 - aiogram.event - INFO - Update id=927125556 is handled. Duration 358 ms by bot id=7437910630
+2026-02-10 00:07:29,950 - aiogram.event - INFO - Update id=927125557 is handled. Duration 187 ms by bot id=7437910630
+2026-02-10 00:07:31,343 - aiogram.event - INFO - Update id=927125558 is handled. Duration 92 ms by bot id=7437910630
+2026-02-10 00:07:38,341 - aiogram.event - INFO - Update id=927125559 is handled. Duration 375 ms by bot id=7437910630
+2026-02-10 00:07:40,443 - aiogram.event - INFO - Update id=927125560 is handled. Duration 734 ms by bot id=7437910630
+2026-02-10 00:07:41,347 - aiogram.event - INFO - Update id=927125561 is handled. Duration 188 ms by bot id=7437910630
+2026-02-10 00:07:42,743 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-10 00:07:42,743 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-10 00:07:42 MSK], next run at: 2026-02-10 00:07:42 MSK)" (scheduled at 2026-02-10 00:07:42.736357+03:00)
+2026-02-10 00:07:42,744 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-10 00:07:42,745 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 00:07:42,745 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-10 00:07:42 MSK], next run at: 2026-02-10 00:07:42 MSK)" executed successfully
+2026-02-10 00:07:43,405 - aiogram.event - INFO - Update id=927125562 is handled. Duration 94 ms by bot id=7437910630
+2026-02-10 00:10:53,232 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 00:10:53,238 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 00:10:53,499 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:11:05,878 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:11:05,880 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:11:05,882 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:11:05,882 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:11:05,882 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 00:11:05,883 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 00:11:05,986 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:11:27,883 - aiogram.event - INFO - Update id=927125563 is handled. Duration 313 ms by bot id=7437910630
+2026-02-10 00:11:30,087 - aiogram.event - INFO - Update id=927125564 is handled. Duration 452 ms by bot id=7437910630
+2026-02-10 00:11:30,392 - aiogram.event - INFO - Update id=927125565 is handled. Duration 594 ms by bot id=7437910630
+2026-02-10 00:11:32,011 - aiogram.event - INFO - Update id=927125566 is handled. Duration 218 ms by bot id=7437910630
+2026-02-10 00:11:33,696 - aiogram.event - INFO - Update id=927125567 is handled. Duration 218 ms by bot id=7437910630
+2026-02-10 00:11:34,834 - aiogram.event - INFO - Update id=927125568 is handled. Duration 202 ms by bot id=7437910630
+2026-02-10 00:11:35,886 - apscheduler.scheduler - INFO - Removed job startup_test
+2026-02-10 00:11:35,887 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: date[2026-02-10 00:11:35 MSK], next run at: 2026-02-10 00:11:35 MSK)" (scheduled at 2026-02-10 00:11:35.879076+03:00)
+2026-02-10 00:11:35,887 - __main__ - INFO - Запуск ежедневных уведомлений...
+2026-02-10 00:11:35,887 - __main__ - ERROR - Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 00:11:35,887 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: date[2026-02-10 00:11:35 MSK], next run at: 2026-02-10 00:11:35 MSK)" executed successfully
+2026-02-10 00:11:36,698 - aiogram.event - INFO - Update id=927125569 is handled. Duration 641 ms by bot id=7437910630
+2026-02-10 00:11:37,426 - aiogram.event - INFO - Update id=927125570 is handled. Duration 155 ms by bot id=7437910630
+2026-02-10 00:11:39,263 - aiogram.event - INFO - Update id=927125571 is handled. Duration 93 ms by bot id=7437910630
+2026-02-10 00:11:41,378 - aiogram.event - INFO - Update id=927125572 is handled. Duration 204 ms by bot id=7437910630
+2026-02-10 00:11:48,156 - aiogram.event - INFO - Update id=927125573 is handled. Duration 125 ms by bot id=7437910630
+2026-02-10 00:11:50,577 - aiogram.event - INFO - Update id=927125574 is handled. Duration 657 ms by bot id=7437910630
+2026-02-10 00:11:51,316 - aiogram.event - INFO - Update id=927125575 is handled. Duration 141 ms by bot id=7437910630
+2026-02-10 00:11:53,653 - aiogram.event - INFO - Update id=927125576 is handled. Duration 608 ms by bot id=7437910630
+2026-02-10 00:11:54,840 - aiogram.event - INFO - Update id=927125577 is handled. Duration 202 ms by bot id=7437910630
+2026-02-10 00:11:56,091 - aiogram.event - INFO - Update id=927125578 is handled. Duration 202 ms by bot id=7437910630
+2026-02-10 00:11:56,994 - aiogram.event - INFO - Update id=927125579 is handled. Duration 93 ms by bot id=7437910630
+2026-02-10 00:19:36,960 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 00:19:36,966 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 00:19:37,228 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:19:46,593 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:19:46,595 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:19:46,595 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 00:19:46,596 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 00:19:46,689 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:20:44,458 - aiogram.event - INFO - Update id=927125580 is handled. Duration 514 ms by bot id=7437910630
+2026-02-10 00:20:48,137 - aiogram.event - INFO - Update id=927125581 is handled. Duration 141 ms by bot id=7437910630
+2026-02-10 00:21:58,604 - aiogram.event - INFO - Update id=927125582 is handled. Duration 577 ms by bot id=7437910630
+2026-02-10 00:21:59,793 - aiogram.event - INFO - Update id=927125583 is handled. Duration 93 ms by bot id=7437910630
+2026-02-10 00:22:05,761 - aiogram.event - INFO - Update id=927125584 is handled. Duration 406 ms by bot id=7437910630
+2026-02-10 00:22:07,654 - aiogram.event - INFO - Update id=927125585 is handled. Duration 202 ms by bot id=7437910630
+2026-02-10 00:22:09,554 - aiogram.event - INFO - Update id=927125586 is handled. Duration 797 ms by bot id=7437910630
+2026-02-10 00:22:10,224 - aiogram.event - INFO - Update id=927125587 is handled. Duration 125 ms by bot id=7437910630
+2026-02-10 00:22:14,443 - aiogram.event - INFO - Update id=927125588 is handled. Duration 110 ms by bot id=7437910630
+2026-02-10 00:22:17,537 - aiogram.event - INFO - Update id=927125589 is handled. Duration 109 ms by bot id=7437910630
+2026-02-10 00:30:50,686 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 00:30:50,692 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 00:30:50,955 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:31:02,819 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:31:02,821 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:31:02,821 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 00:31:02,821 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 00:31:02,903 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:31:11,201 - aiogram.event - INFO - Update id=927125590 is handled. Duration 281 ms by bot id=7437910630
+2026-02-10 00:31:13,373 - aiogram.event - INFO - Update id=927125591 is handled. Duration 218 ms by bot id=7437910630
+2026-02-10 00:31:14,710 - aiogram.event - INFO - Update id=927125592 is handled. Duration 235 ms by bot id=7437910630
+2026-02-10 00:31:15,900 - aiogram.event - INFO - Update id=927125593 is handled. Duration 281 ms by bot id=7437910630
+2026-02-10 00:31:17,573 - aiogram.event - INFO - Update id=927125594 is handled. Duration 453 ms by bot id=7437910630
+2026-02-10 00:31:18,589 - aiogram.event - INFO - Update id=927125595 is handled. Duration 203 ms by bot id=7437910630
+2026-02-10 00:31:19,992 - aiogram.event - INFO - Update id=927125596 is handled. Duration 296 ms by bot id=7437910630
+2026-02-10 00:31:24,945 - aiogram.event - INFO - Update id=927125597 is handled. Duration 203 ms by bot id=7437910630
+2026-02-10 00:31:27,348 - aiogram.event - INFO - Update id=927125598 is handled. Duration 610 ms by bot id=7437910630
+2026-02-10 00:31:29,958 - aiogram.event - INFO - Update id=927125599 is handled. Duration 625 ms by bot id=7437910630
+2026-02-10 00:31:31,646 - aiogram.event - INFO - Update id=927125600 is handled. Duration 171 ms by bot id=7437910630
+2026-02-10 00:31:33,190 - aiogram.event - INFO - Update id=927125601 is handled. Duration 188 ms by bot id=7437910630
+2026-02-10 00:31:34,545 - aiogram.event - INFO - Update id=927125602 is handled. Duration 93 ms by bot id=7437910630
+2026-02-10 00:31:43,409 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 00:31:43,411 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 00:31:43,662 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:42:31,634 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 00:42:31,638 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 00:42:31,638 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 00:42:31,638 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 00:42:31,713 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 00:42:32,199 - aiogram.event - INFO - Update id=927125603 is handled. Duration 391 ms by bot id=7437910630
+2026-02-10 00:42:35,063 - aiogram.event - INFO - Update id=927125604 is handled. Duration 186 ms by bot id=7437910630
+2026-02-10 00:42:36,409 - aiogram.event - INFO - Update id=927125605 is handled. Duration 109 ms by bot id=7437910630
+2026-02-10 00:42:43,473 - aiogram.event - INFO - Update id=927125606 is handled. Duration 406 ms by bot id=7437910630
+2026-02-10 00:42:44,976 - aiogram.event - INFO - Update id=927125607 is handled. Duration 312 ms by bot id=7437910630
+2026-02-10 00:42:47,006 - aiogram.event - INFO - Update id=927125608 is handled. Duration 202 ms by bot id=7437910630
+2026-02-10 00:42:49,061 - aiogram.event - INFO - Update id=927125609 is handled. Duration 202 ms by bot id=7437910630
+2026-02-10 00:42:51,324 - aiogram.event - INFO - Update id=927125610 is handled. Duration 188 ms by bot id=7437910630
+2026-02-10 00:42:52,573 - aiogram.event - INFO - Update id=927125611 is handled. Duration 93 ms by bot id=7437910630
+2026-02-10 00:42:57,118 - aiogram.event - INFO - Update id=927125612 is handled. Duration 94 ms by bot id=7437910630
+2026-02-10 00:43:04,786 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 00:43:04,789 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 00:43:05,056 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 11:41:44,382 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 11:41:44,382 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 11:41:44,383 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 11:41:44,383 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 11:41:44,383 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 11:41:44,388 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 11:41:44,388 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 11:41:44,388 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 11:41:44,388 - apscheduler.scheduler - INFO - Added job "hourly_maintenance_job" to job store "default"
+2026-02-10 11:41:44,388 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels_job" to job store "default"
+2026-02-10 11:41:44,388 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 11:41:46,023 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 11:41:46,126 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 11:42:50,114 - aiogram.event - INFO - Update id=927125613 is handled. Duration 547 ms by bot id=7437910630
+2026-02-10 11:42:59,929 - aiogram.event - INFO - Update id=927125614 is handled. Duration 6781 ms by bot id=7437910630
+2026-02-10 11:42:59,931 - aiogram.event - INFO - Update id=927125615 is handled. Duration 3703 ms by bot id=7437910630
+2026-02-10 11:43:01,343 - aiogram.event - INFO - Update id=927125616 is handled. Duration 1405 ms by bot id=7437910630
+2026-02-10 11:43:07,341 - aiogram.event - INFO - Update id=927125617 is handled. Duration 1093 ms by bot id=7437910630
+2026-02-10 11:43:10,161 - aiogram.event - INFO - Update id=927125618 is handled. Duration 188 ms by bot id=7437910630
+2026-02-10 11:43:16,799 - aiogram.event - INFO - Update id=927125619 is handled. Duration 1812 ms by bot id=7437910630
+2026-02-10 11:43:21,304 - aiogram.event - INFO - Update id=927125620 is handled. Duration 1953 ms by bot id=7437910630
+2026-02-10 11:43:53,103 - aiogram.event - INFO - Update id=927125621 is handled. Duration 641 ms by bot id=7437910630
+2026-02-10 11:44:05,960 - aiogram.event - INFO - Update id=927125622 is handled. Duration 843 ms by bot id=7437910630
+2026-02-10 11:44:09,153 - aiogram.event - INFO - Update id=927125623 is handled. Duration 625 ms by bot id=7437910630
+2026-02-10 11:44:16,548 - aiogram.event - INFO - Update id=927125624 is handled. Duration 1344 ms by bot id=7437910630
+2026-02-10 11:44:19,796 - aiogram.event - INFO - Update id=927125625 is handled. Duration 108 ms by bot id=7437910630
+2026-02-10 11:44:30,500 - aiogram.event - INFO - Update id=927125626 is handled. Duration 2547 ms by bot id=7437910630
+2026-02-10 11:44:35,262 - aiogram.event - INFO - Update id=927125627 is handled. Duration 4688 ms by bot id=7437910630
+2026-02-10 11:44:37,200 - aiogram.event - INFO - Update id=927125628 is handled. Duration 670 ms by bot id=7437910630
+2026-02-10 11:44:45,300 - aiogram.event - INFO - Update id=927125629 is handled. Duration 3672 ms by bot id=7437910630
+2026-02-10 11:44:49,959 - aiogram.event - INFO - Update id=927125630 is handled. Duration 186 ms by bot id=7437910630
+2026-02-10 11:44:53,639 - aiogram.event - INFO - Update id=927125631 is handled. Duration 108 ms by bot id=7437910630
+2026-02-10 11:46:39,600 - aiogram.event - INFO - Update id=927125632 is handled. Duration 671 ms by bot id=7437910630
+2026-02-10 12:00:00,009 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 13:00:00 MSK)" (scheduled at 2026-02-10 12:00:00+03:00)
+2026-02-10 12:00:00,010 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 12:00:00,012 - __main__ - INFO - ✅ Ежечасное обслуживание завершено
+2026-02-10 12:00:00,013 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 13:00:00 MSK)" executed successfully
+2026-02-10 12:00:00,016 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: cron[hour='12', minute='0'], next run at: 2026-02-11 12:00:00 MSK)" (scheduled at 2026-02-10 12:00:00+03:00)
+2026-02-10 12:00:00,016 - __main__ - INFO - 🔔 Запуск ежедневных уведомлений...
+2026-02-10 12:00:00,017 - __main__ - ERROR - ❌ Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 12:00:00,017 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: cron[hour='12', minute='0'], next run at: 2026-02-11 12:00:00 MSK)" executed successfully
+2026-02-10 12:21:20,079 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 12:21:20,085 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 12:21:20,347 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 12:21:45,373 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:21:45,373 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:21:45,373 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:21:45,373 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:21:45,373 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:21:45,385 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 12:21:45,385 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 12:21:45,385 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 12:21:45,385 - apscheduler.scheduler - INFO - Added job "hourly_maintenance_job" to job store "default"
+2026-02-10 12:21:45,386 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels_job" to job store "default"
+2026-02-10 12:21:45,386 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 12:21:46,402 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 12:21:46,820 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 12:22:03,324 - aiogram.event - INFO - Update id=927125633 is handled. Duration 1108 ms by bot id=7437910630
+2026-02-10 12:22:07,439 - aiogram.event - INFO - Update id=927125634 is handled. Duration 2969 ms by bot id=7437910630
+2026-02-10 12:22:08,402 - aiogram.event - INFO - Update id=927125635 is handled. Duration 93 ms by bot id=7437910630
+2026-02-10 12:22:11,017 - aiogram.event - INFO - Update id=927125636 is handled. Duration 702 ms by bot id=7437910630
+2026-02-10 12:22:13,521 - aiogram.event - INFO - Update id=927125637 is handled. Duration 1407 ms by bot id=7437910630
+2026-02-10 12:22:15,638 - aiogram.event - INFO - Update id=927125638 is handled. Duration 1922 ms by bot id=7437910630
+2026-02-10 12:22:16,976 - aiogram.event - INFO - Update id=927125639 is handled. Duration 1234 ms by bot id=7437910630
+2026-02-10 12:22:17,726 - aiogram.event - INFO - Update id=927125640 is handled. Duration 375 ms by bot id=7437910630
+2026-02-10 12:22:19,437 - aiogram.event - INFO - Update id=927125641 is handled. Duration 516 ms by bot id=7437910630
+2026-02-10 12:22:27,785 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 12:22:27,787 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 12:22:28,044 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 12:42:44,457 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:42:44,458 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:42:44,458 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:42:44,458 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:42:44,458 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 12:42:44,461 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 12:42:44,461 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 12:42:44,461 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 12:42:44,461 - apscheduler.scheduler - INFO - Added job "hourly_maintenance_job" to job store "default"
+2026-02-10 12:42:44,461 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels_job" to job store "default"
+2026-02-10 12:42:44,462 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 12:42:45,479 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 12:42:45,896 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 12:43:34,492 - aiogram.event - INFO - Update id=927125642 is handled. Duration 1265 ms by bot id=7437910630
+2026-02-10 12:43:37,025 - aiogram.event - INFO - Update id=927125643 is handled. Duration 1500 ms by bot id=7437910630
+2026-02-10 12:43:39,199 - aiogram.event - INFO - Update id=927125644 is handled. Duration 1014 ms by bot id=7437910630
+2026-02-10 12:43:44,316 - aiogram.event - INFO - Update id=927125645 is handled. Duration 1860 ms by bot id=7437910630
+2026-02-10 12:43:45,288 - aiogram.event - INFO - Update id=927125646 is handled. Duration 1125 ms by bot id=7437910630
+2026-02-10 12:43:47,302 - aiogram.event - INFO - Update id=927125647 is handled. Duration 1547 ms by bot id=7437910630
+2026-02-10 12:43:49,097 - aiogram.event - INFO - Update id=927125648 is handled. Duration 983 ms by bot id=7437910630
+2026-02-10 13:00:00,021 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 14:00:00 MSK)" (scheduled at 2026-02-10 13:00:00+03:00)
+2026-02-10 13:00:00,022 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 13:00:00,026 - __main__ - INFO - ✅ Ежечасное обслуживание завершено
+2026-02-10 13:00:00,026 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 14:00:00 MSK)" executed successfully
+2026-02-10 13:30:00,045 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 14:30:00 MSK)" (scheduled at 2026-02-10 13:30:00+03:00)
+2026-02-10 13:30:00,055 - __main__ - INFO - 🔔 Запуск ежедневных уведомлений...
+2026-02-10 13:30:00,060 - __main__ - ERROR - ❌ Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 13:30:00,061 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 14:30:00 MSK)" executed successfully
+2026-02-10 13:49:21,438 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 13:49:21,473 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 13:49:21,742 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 15:36:12,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 15:36:12,940 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 15:36:12,940 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 15:36:12,940 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 15:36:12,940 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 15:36:12,945 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 15:36:12,946 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 15:36:12,946 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 15:36:12,946 - apscheduler.scheduler - INFO - Added job "hourly_maintenance_job" to job store "default"
+2026-02-10 15:36:12,946 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels_job" to job store "default"
+2026-02-10 15:36:12,946 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 15:36:13,076 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 15:36:13,574 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 15:36:47,375 - aiogram.event - INFO - Update id=927125650 is handled. Duration 592 ms by bot id=7437910630
+2026-02-10 15:36:50,501 - aiogram.event - INFO - Update id=927125651 is handled. Duration 1030 ms by bot id=7437910630
+2026-02-10 15:36:51,987 - aiogram.event - INFO - Update id=927125652 is handled. Duration 625 ms by bot id=7437910630
+2026-02-10 15:36:53,820 - aiogram.event - INFO - Update id=927125653 is handled. Duration 750 ms by bot id=7437910630
+2026-02-10 15:36:56,749 - aiogram.event - INFO - Update id=927125654 is handled. Duration 1217 ms by bot id=7437910630
+2026-02-10 15:36:59,112 - aiogram.event - INFO - Update id=927125655 is handled. Duration 827 ms by bot id=7437910630
+2026-02-10 15:37:02,243 - aiogram.event - INFO - Update id=927125656 is handled. Duration 922 ms by bot id=7437910630
+2026-02-10 15:37:04,532 - aiogram.event - INFO - Update id=927125657 is handled. Duration 532 ms by bot id=7437910630
+2026-02-10 15:37:06,087 - aiogram.event - INFO - Update id=927125658 is handled. Duration 109 ms by bot id=7437910630
+2026-02-10 15:37:08,469 - aiogram.event - INFO - Update id=927125659 is handled. Duration 452 ms by bot id=7437910630
+2026-02-10 15:37:11,408 - aiogram.event - INFO - Update id=927125660 is handled. Duration 687 ms by bot id=7437910630
+2026-02-10 15:37:13,672 - aiogram.event - INFO - Update id=927125661 is handled. Duration 1202 ms by bot id=7437910630
+2026-02-10 15:37:15,223 - aiogram.event - INFO - Update id=927125662 is handled. Duration 827 ms by bot id=7437910630
+2026-02-10 15:37:16,877 - aiogram.event - INFO - Update id=927125663 is handled. Duration 1140 ms by bot id=7437910630
+2026-02-10 15:37:17,275 - aiogram.event - INFO - Update id=927125664 is handled. Duration 140 ms by bot id=7437910630
+2026-02-10 15:37:22,172 - aiogram.event - INFO - Update id=927125665 is handled. Duration 547 ms by bot id=7437910630
+2026-02-10 15:37:34,011 - aiogram.event - INFO - Update id=927125666 is handled. Duration 703 ms by bot id=7437910630
+2026-02-10 15:37:42,387 - aiogram.event - INFO - Update id=927125667 is handled. Duration 1484 ms by bot id=7437910630
+2026-02-10 15:37:44,873 - aiogram.event - INFO - Update id=927125668 is handled. Duration 1077 ms by bot id=7437910630
+2026-02-10 15:37:47,966 - aiogram.event - INFO - Update id=927125669 is handled. Duration 109 ms by bot id=7437910630
+2026-02-10 15:38:11,049 - aiogram.event - INFO - Update id=927125670 is handled. Duration 452 ms by bot id=7437910630
+2026-02-10 15:57:47,328 - aiogram.event - INFO - Update id=927125671 is handled. Duration 827 ms by bot id=7437910630
+2026-02-10 16:00:00,048 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 17:00:00 MSK)" (scheduled at 2026-02-10 16:00:00+03:00)
+2026-02-10 16:00:00,052 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 16:00:00,078 - __main__ - INFO - ✅ Ежечасное обслуживание завершено
+2026-02-10 16:00:00,079 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 17:00:00 MSK)" executed successfully
+2026-02-10 16:07:48,390 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-10 16:07:48,403 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 16:07:48,663 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 16:08:11,043 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 16:08:11,043 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 16:08:11,044 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 16:08:11,044 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 16:08:11,044 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 16:08:11,049 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 16:08:11,050 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 16:08:11,050 - apscheduler.scheduler - INFO - Added job "daily_notifications_job" to job store "default"
+2026-02-10 16:08:11,050 - apscheduler.scheduler - INFO - Added job "hourly_maintenance_job" to job store "default"
+2026-02-10 16:08:11,050 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels_job" to job store "default"
+2026-02-10 16:08:11,050 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 16:08:12,103 - aiogram.dispatcher - INFO - Start polling
+2026-02-10 16:08:12,515 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-10 16:08:51,203 - aiogram.event - INFO - Update id=927125672 is handled. Duration 592 ms by bot id=7437910630
+2026-02-10 16:08:55,511 - aiogram.event - INFO - Update id=927125674 is handled. Duration 672 ms by bot id=7437910630
+2026-02-10 16:08:58,867 - aiogram.event - INFO - Update id=927125675 is handled. Duration 750 ms by bot id=7437910630
+2026-02-10 16:09:01,432 - aiogram.event - INFO - Update id=927125676 is handled. Duration 515 ms by bot id=7437910630
+2026-02-10 16:09:08,967 - aiogram.event - INFO - Update id=927125673 is not handled. Duration 17844 ms by bot id=7437910630
+2026-02-10 16:09:08,968 - aiogram.event - ERROR - Cause exception while process update id=927125673 by bot id=7437910630
+TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py", line 1414, in back_to_main
+    await callback.answer()
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+2026-02-10 19:37:24,256 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-10 19:37:24,473 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-10 19:37:24,785 - apscheduler.executors.default - WARNING - Run time of job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 20:30:00 MSK)" was missed by 0:07:24.745988
+2026-02-10 19:37:24,831 - apscheduler.executors.default - WARNING - Run time of job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 20:00:00 MSK)" was missed by 0:37:24.831166
+2026-02-10 19:37:24,848 - apscheduler.executors.default - WARNING - Run time of job "daily_notifications_job (trigger: cron[hour='18', minute='0'], next run at: 2026-02-11 18:00:00 MSK)" was missed by 1:37:24.848347
+2026-02-10 19:37:38,316 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-10 20:00:00,012 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 21:00:00 MSK)" (scheduled at 2026-02-10 20:00:00+03:00)
+2026-02-10 20:00:00,018 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 20:00:00,021 - __main__ - ERROR - ❌ Ошибка обслуживания: [Errno 22] Invalid argument
+2026-02-10 20:00:00,021 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 21:00:00 MSK)" executed successfully
+2026-02-10 20:01:59,404 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] Указанное сетевое имя более недоступно
+2026-02-10 20:01:59,406 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-10 20:02:11,482 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-10 20:30:00,196 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 21:30:00 MSK)" (scheduled at 2026-02-10 20:30:00+03:00)
+2026-02-10 20:30:00,197 - __main__ - INFO - 🔔 Запуск ежедневных уведомлений...
+2026-02-10 20:30:00,199 - __main__ - ERROR - ❌ Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 20:30:00,199 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 21:30:00 MSK)" executed successfully
+2026-02-10 21:00:00,283 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 22:00:00 MSK)" (scheduled at 2026-02-10 21:00:00+03:00)
+2026-02-10 21:00:00,287 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 21:00:00,288 - __main__ - ERROR - ❌ Ошибка обслуживания: [Errno 22] Invalid argument
+2026-02-10 21:00:00,289 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 22:00:00 MSK)" executed successfully
+2026-02-10 21:30:00,155 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 22:30:00 MSK)" (scheduled at 2026-02-10 21:30:00+03:00)
+2026-02-10 21:30:00,155 - __main__ - INFO - 🔔 Запуск ежедневных уведомлений...
+2026-02-10 21:30:00,169 - __main__ - ERROR - ❌ Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 21:30:00,169 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 22:30:00 MSK)" executed successfully
+2026-02-10 22:00:00,091 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 23:00:00 MSK)" (scheduled at 2026-02-10 22:00:00+03:00)
+2026-02-10 22:00:00,092 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 22:00:00,092 - __main__ - ERROR - ❌ Ошибка обслуживания: [Errno 22] Invalid argument
+2026-02-10 22:00:00,094 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-10 23:00:00 MSK)" executed successfully
+2026-02-10 22:30:00,055 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 23:30:00 MSK)" (scheduled at 2026-02-10 22:30:00+03:00)
+2026-02-10 22:30:00,058 - __main__ - INFO - 🔔 Запуск ежедневных уведомлений...
+2026-02-10 22:30:00,059 - __main__ - ERROR - ❌ Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 22:30:00,059 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-10 23:30:00 MSK)" executed successfully
+2026-02-10 22:37:33,279 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2026-02-10 22:37:33,281 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-10 22:38:00,409 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-10 22:42:12,586 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2026-02-10 22:42:12,587 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-10 22:42:28,007 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-10 23:00:00,035 - apscheduler.executors.default - INFO - Running job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-11 00:00:00 MSK)" (scheduled at 2026-02-10 23:00:00+03:00)
+2026-02-10 23:00:00,037 - __main__ - INFO - 🛠️ Выполняю ежечасное обслуживание...
+2026-02-10 23:00:00,038 - __main__ - ERROR - ❌ Ошибка обслуживания: [Errno 22] Invalid argument
+2026-02-10 23:00:00,038 - apscheduler.executors.default - INFO - Job "hourly_maintenance_job (trigger: cron[minute='0'], next run at: 2026-02-11 00:00:00 MSK)" executed successfully
+2026-02-10 23:06:23,382 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2026-02-10 23:06:23,382 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-10 23:06:42,151 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-10 23:07:42,597 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2026-02-10 23:07:42,597 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7437910630)
+2026-02-10 23:08:06,904 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7437910630)
+2026-02-10 23:30:00,026 - apscheduler.executors.default - INFO - Running job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-11 00:30:00 MSK)" (scheduled at 2026-02-10 23:30:00+03:00)
+2026-02-10 23:30:00,027 - __main__ - INFO - 🔔 Запуск ежедневных уведомлений...
+2026-02-10 23:30:00,028 - __main__ - ERROR - ❌ Ошибка отправки уведомлений: cannot import name 'check_and_send_notifications' from 'bot' (C:\Users\admin\PycharmProjects\BotRUSEGEShram4\bot.py)
+2026-02-10 23:30:00,029 - apscheduler.executors.default - INFO - Job "daily_notifications_job (trigger: cron[minute='30'], next run at: 2026-02-11 00:30:00 MSK)" executed successfully
+2026-02-11 19:00:16,288 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:00:16,289 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:00:16,290 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:00:16,290 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:00:16,293 - apscheduler.scheduler - INFO - Added job "daily_notification_job" to job store "default"
+2026-02-11 19:00:16,293 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 19:00:16,293 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 19:00:16,293 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 19:00:16,293 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 19:00:16,293 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 19:00:16,388 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:00:56,716 - aiogram.event - INFO - Update id=927125677 is handled. Duration 609 ms by bot id=7437910630
+2026-02-11 19:01:02,317 - aiogram.event - INFO - Update id=927125678 is handled. Duration 609 ms by bot id=7437910630
+2026-02-11 19:01:09,094 - aiogram.event - INFO - Update id=927125679 is handled. Duration 500 ms by bot id=7437910630
+2026-02-11 19:01:14,856 - aiogram.event - INFO - Update id=927125680 is handled. Duration 1187 ms by bot id=7437910630
+2026-02-11 19:01:18,593 - aiogram.event - INFO - Update id=927125681 is handled. Duration 94 ms by bot id=7437910630
+2026-02-11 19:01:22,431 - aiogram.event - INFO - Update id=927125682 is handled. Duration 625 ms by bot id=7437910630
+2026-02-11 19:01:27,487 - aiogram.event - INFO - Update id=927125683 is handled. Duration 1062 ms by bot id=7437910630
+2026-02-11 19:01:34,115 - aiogram.event - INFO - Update id=927125684 is handled. Duration 968 ms by bot id=7437910630
+2026-02-11 19:01:46,498 - aiogram.event - INFO - Update id=927125685 is handled. Duration 1905 ms by bot id=7437910630
+2026-02-11 19:01:49,921 - aiogram.event - INFO - Update id=927125686 is handled. Duration 1327 ms by bot id=7437910630
+2026-02-11 19:01:55,330 - aiogram.event - INFO - Update id=927125687 is handled. Duration 1452 ms by bot id=7437910630
+2026-02-11 19:01:59,303 - aiogram.event - INFO - Update id=927125688 is handled. Duration 984 ms by bot id=7437910630
+2026-02-11 19:02:05,504 - aiogram.event - INFO - Update id=927125689 is handled. Duration 1358 ms by bot id=7437910630
+2026-02-11 19:02:11,134 - aiogram.event - INFO - Update id=927125690 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:02:42,737 - aiogram.event - INFO - Update id=927125691 is handled. Duration 984 ms by bot id=7437910630
+2026-02-11 19:03:03,249 - aiogram.event - INFO - Update id=927125692 is handled. Duration 672 ms by bot id=7437910630
+2026-02-11 19:03:06,123 - notifications - INFO - 📨 Начало массовой рассылки для 3 пользователей
+2026-02-11 19:03:07,373 - notifications - INFO - 📨 Рассылка завершена: ✅ 3 успешно, ❌ 0 ошибок, ⏭ 0 пропущено
+2026-02-11 19:03:08,358 - aiogram.event - INFO - Update id=927125693 is handled. Duration 2797 ms by bot id=7437910630
+2026-02-11 19:03:33,165 - aiogram.event - INFO - Update id=927125694 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:06:32,474 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 19:06:32,476 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 19:06:32,730 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:07:01,107 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:07:01,107 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:07:01,108 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:07:01,109 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:07:01,110 - apscheduler.scheduler - INFO - Added job "daily_notification_job" to job store "default"
+2026-02-11 19:07:01,110 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 19:07:01,111 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 19:07:01,111 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 19:07:01,111 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 19:07:01,111 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 19:07:01,199 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:07:16,376 - aiogram.event - INFO - Update id=927125695 is handled. Duration 625 ms by bot id=7437910630
+2026-02-11 19:07:19,424 - aiogram.event - INFO - Update id=927125696 is handled. Duration 1562 ms by bot id=7437910630
+2026-02-11 19:07:40,504 - aiogram.event - INFO - Update id=927125697 is handled. Duration 1172 ms by bot id=7437910630
+2026-02-11 19:07:56,228 - aiogram.event - INFO - Update id=927125698 is handled. Duration 952 ms by bot id=7437910630
+2026-02-11 19:17:07,218 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 19:17:07,221 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 19:17:07,484 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:17:34,799 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:17:34,800 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:17:34,802 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:17:34,802 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:17:34,805 - apscheduler.scheduler - INFO - Added job "daily_notification_job" to job store "default"
+2026-02-11 19:17:34,805 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 19:17:34,805 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 19:17:34,805 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 19:17:34,805 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 19:17:34,805 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 19:17:34,967 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:17:45,516 - aiogram.event - INFO - Update id=927125699 is handled. Duration 1141 ms by bot id=7437910630
+2026-02-11 19:17:53,058 - aiogram.event - INFO - Update id=927125700 is handled. Duration 1140 ms by bot id=7437910630
+2026-02-11 19:19:11,011 - aiogram.event - INFO - Update id=927125701 is handled. Duration 890 ms by bot id=7437910630
+2026-02-11 19:19:14,093 - aiogram.event - INFO - Update id=927125702 is handled. Duration 1641 ms by bot id=7437910630
+2026-02-11 19:19:19,198 - aiogram.event - INFO - Update id=927125703 is handled. Duration 437 ms by bot id=7437910630
+2026-02-11 19:19:20,254 - aiogram.event - INFO - Update id=927125704 is handled. Duration 1108 ms by bot id=7437910630
+2026-02-11 19:19:35,127 - aiogram.event - INFO - Update id=927125705 is handled. Duration 437 ms by bot id=7437910630
+2026-02-11 19:19:38,539 - aiogram.event - INFO - Update id=927125706 is handled. Duration 704 ms by bot id=7437910630
+2026-02-11 19:19:43,089 - aiogram.event - INFO - Update id=927125707 is handled. Duration 390 ms by bot id=7437910630
+2026-02-11 19:19:47,545 - aiogram.event - INFO - Update id=927125708 is handled. Duration 719 ms by bot id=7437910630
+2026-02-11 19:21:16,034 - aiogram.event - INFO - Update id=927125709 is handled. Duration 640 ms by bot id=7437910630
+2026-02-11 19:21:17,321 - aiogram.event - INFO - Update id=927125710 is handled. Duration 905 ms by bot id=7437910630
+2026-02-11 19:21:21,162 - aiogram.event - INFO - Update id=927125711 is handled. Duration 422 ms by bot id=7437910630
+2026-02-11 19:21:22,131 - aiogram.event - INFO - Update id=927125712 is handled. Duration 780 ms by bot id=7437910630
+2026-02-11 19:21:24,562 - aiogram.event - INFO - Update id=927125713 is handled. Duration 500 ms by bot id=7437910630
+2026-02-11 19:21:25,762 - aiogram.event - INFO - Update id=927125714 is handled. Duration 1092 ms by bot id=7437910630
+2026-02-11 19:21:28,280 - aiogram.event - INFO - Update id=927125715 is handled. Duration 157 ms by bot id=7437910630
+2026-02-11 19:21:30,065 - aiogram.event - INFO - Update id=927125716 is handled. Duration 1015 ms by bot id=7437910630
+2026-02-11 19:21:33,025 - aiogram.event - INFO - Update id=927125717 is handled. Duration 188 ms by bot id=7437910630
+2026-02-11 19:21:34,469 - aiogram.event - INFO - Update id=927125718 is handled. Duration 1156 ms by bot id=7437910630
+2026-02-11 19:21:39,080 - aiogram.event - INFO - Update id=927125719 is handled. Duration 936 ms by bot id=7437910630
+2026-02-11 19:21:40,868 - aiogram.event - INFO - Update id=927125720 is handled. Duration 2547 ms by bot id=7437910630
+2026-02-11 19:21:44,601 - aiogram.event - INFO - Update id=927125721 is handled. Duration 969 ms by bot id=7437910630
+2026-02-11 19:21:45,039 - aiogram.event - INFO - Update id=927125722 is handled. Duration 1187 ms by bot id=7437910630
+2026-02-11 19:21:47,596 - aiogram.event - INFO - Update id=927125723 is handled. Duration 266 ms by bot id=7437910630
+2026-02-11 19:21:48,815 - aiogram.event - INFO - Update id=927125724 is handled. Duration 905 ms by bot id=7437910630
+2026-02-11 19:22:17,063 - aiogram.event - INFO - Update id=927125725 is handled. Duration 1312 ms by bot id=7437910630
+2026-02-11 19:22:38,751 - aiogram.event - INFO - Update id=927125726 is handled. Duration 1125 ms by bot id=7437910630
+2026-02-11 19:23:07,849 - aiogram.event - INFO - Update id=927125727 is handled. Duration 969 ms by bot id=7437910630
+2026-02-11 19:23:16,722 - aiogram.event - INFO - Update id=927125728 is handled. Duration 562 ms by bot id=7437910630
+2026-02-11 19:23:23,018 - aiogram.event - INFO - Update id=927125729 is handled. Duration 1219 ms by bot id=7437910630
+2026-02-11 19:23:41,160 - aiogram.event - INFO - Update id=927125730 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:24:01,153 - aiogram.event - INFO - Update id=927125731 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:24:03,560 - aiogram.event - INFO - Update id=927125732 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:24:28,019 - aiogram.event - INFO - Update id=927125733 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 19:24:30,464 - aiogram.event - INFO - Update id=927125734 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:24:31,513 - aiogram.event - INFO - Update id=927125735 is handled. Duration 1063 ms by bot id=7437910630
+2026-02-11 19:24:32,347 - aiogram.event - INFO - Update id=927125736 is handled. Duration 1250 ms by bot id=7437910630
+2026-02-11 19:24:40,555 - aiogram.event - INFO - Update id=927125737 is handled. Duration 1530 ms by bot id=7437910630
+2026-02-11 19:25:05,156 - aiogram.event - INFO - Update id=927125738 is handled. Duration 532 ms by bot id=7437910630
+2026-02-11 19:25:32,300 - aiogram.event - INFO - Update id=927125739 is handled. Duration 890 ms by bot id=7437910630
+2026-02-11 19:25:39,011 - aiogram.event - INFO - Update id=927125740 is handled. Duration 702 ms by bot id=7437910630
+2026-02-11 19:25:56,704 - aiogram.event - INFO - Update id=927125741 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:32:48,959 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 19:32:48,962 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 19:32:49,218 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:33:01,143 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:33:01,143 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:33:01,145 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:33:01,145 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:33:01,147 - apscheduler.scheduler - INFO - Added job "daily_notification_job" to job store "default"
+2026-02-11 19:33:01,147 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 19:33:01,147 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 19:33:01,147 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 19:33:01,147 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 19:33:01,147 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 19:33:01,237 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:33:03,499 - aiogram.event - INFO - Update id=927125743 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:33:05,107 - aiogram.event - INFO - Update id=927125744 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:33:06,633 - aiogram.event - INFO - Update id=927125745 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:33:06,634 - aiogram.event - INFO - Update id=927125746 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:33:06,634 - aiogram.event - INFO - Update id=927125747 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:33:38,602 - aiogram.event - INFO - Update id=927125748 is handled. Duration 702 ms by bot id=7437910630
+2026-02-11 19:33:41,239 - aiogram.event - INFO - Update id=927125749 is handled. Duration 1109 ms by bot id=7437910630
+2026-02-11 19:33:47,830 - aiogram.event - INFO - Update id=927125750 is handled. Duration 1702 ms by bot id=7437910630
+2026-02-11 19:33:54,648 - aiogram.event - INFO - Update id=927125751 is handled. Duration 2813 ms by bot id=7437910630
+2026-02-11 19:33:59,930 - aiogram.event - INFO - Update id=927125752 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:34:24,280 - aiogram.event - INFO - Update id=927125753 is handled. Duration 859 ms by bot id=7437910630
+2026-02-11 19:34:32,989 - aiogram.event - INFO - Update id=927125754 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:34:48,941 - aiogram.event - INFO - Update id=927125755 is handled. Duration 750 ms by bot id=7437910630
+2026-02-11 19:34:52,839 - aiogram.event - INFO - Update id=927125756 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:35:10,557 - aiogram.event - INFO - Update id=927125757 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:35:20,530 - aiogram.event - INFO - Update id=927125758 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:35:26,129 - aiogram.event - INFO - Update id=927125759 is not handled. Duration 905 ms by bot id=7437910630
+2026-02-11 19:35:26,129 - aiogram.event - ERROR - Cause exception while process update id=927125759 by bot id=7437910630
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram4\admin_handlers.py", line 667, in admin_export_users_csv
+    document=InputFile(io.BytesIO(output.getvalue().encode('utf-8')),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+2026-02-11 19:35:42,363 - aiogram.event - INFO - Update id=927125760 is not handled. Duration 672 ms by bot id=7437910630
+2026-02-11 19:35:42,363 - aiogram.event - ERROR - Cause exception while process update id=927125760 by bot id=7437910630
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram4\admin_handlers.py", line 667, in admin_export_users_csv
+    document=InputFile(io.BytesIO(output.getvalue().encode('utf-8')),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+2026-02-11 19:35:46,185 - aiogram.event - INFO - Update id=927125761 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:35:51,694 - aiogram.event - INFO - Update id=927125762 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:35:59,853 - aiogram.event - INFO - Update id=927125763 is handled. Duration 656 ms by bot id=7437910630
+2026-02-11 19:36:06,080 - aiogram.event - INFO - Update id=927125764 is handled. Duration 467 ms by bot id=7437910630
+2026-02-11 19:36:13,628 - aiogram.event - INFO - Update id=927125765 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:36:28,684 - aiogram.event - INFO - Update id=927125766 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:42:07,802 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 19:42:07,805 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 19:42:08,063 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:42:24,925 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:42:24,926 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:42:24,928 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:42:24,928 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 19:42:24,930 - apscheduler.scheduler - INFO - Added job "daily_notification_job" to job store "default"
+2026-02-11 19:42:24,931 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 19:42:24,931 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 19:42:24,931 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 19:42:24,931 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 19:42:24,931 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 19:42:25,011 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 19:42:25,623 - aiogram.event - INFO - Update id=927125767 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:43:05,965 - aiogram.event - INFO - Update id=927125768 is handled. Duration 1140 ms by bot id=7437910630
+2026-02-11 19:43:09,035 - aiogram.event - INFO - Update id=927125769 is handled. Duration 1547 ms by bot id=7437910630
+2026-02-11 19:43:18,756 - aiogram.event - INFO - Update id=927125770 is handled. Duration 1202 ms by bot id=7437910630
+2026-02-11 19:43:20,628 - aiogram.event - INFO - Update id=927125771 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:43:27,243 - aiogram.event - INFO - Update id=927125772 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:43:34,517 - aiogram.event - INFO - Update id=927125773 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 19:43:36,298 - aiogram.event - INFO - Update id=927125774 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:43:40,945 - aiogram.event - INFO - Update id=927125775 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:43:42,825 - aiogram.event - INFO - Update id=927125776 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:43:46,168 - aiogram.event - INFO - Update id=927125777 is not handled. Duration 859 ms by bot id=7437910630
+2026-02-11 19:43:46,168 - aiogram.event - ERROR - Cause exception while process update id=927125777 by bot id=7437910630
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram4\admin_handlers.py", line 667, in admin_export_users_csv
+    document=InputFile(io.BytesIO(output.getvalue().encode('utf-8')),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+2026-02-11 19:43:54,841 - aiogram.event - INFO - Update id=927125778 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 19:43:59,341 - aiogram.event - INFO - Update id=927125779 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 19:44:03,553 - aiogram.event - INFO - Update id=927125780 is handled. Duration 547 ms by bot id=7437910630
+2026-02-11 19:44:12,579 - aiogram.event - INFO - Update id=927125781 is handled. Duration 920 ms by bot id=7437910630
+2026-02-11 19:44:17,905 - aiogram.event - INFO - Update id=927125782 is handled. Duration 1469 ms by bot id=7437910630
+2026-02-11 19:44:24,678 - aiogram.event - INFO - Update id=927125783 is handled. Duration 1125 ms by bot id=7437910630
+2026-02-11 19:44:27,619 - aiogram.event - INFO - Update id=927125784 is handled. Duration 734 ms by bot id=7437910630
+2026-02-11 19:44:32,289 - aiogram.event - INFO - Update id=927125785 is handled. Duration 2375 ms by bot id=7437910630
+2026-02-11 19:44:34,341 - aiogram.event - INFO - Update id=927125786 is handled. Duration 1686 ms by bot id=7437910630
+2026-02-11 19:44:40,009 - aiogram.event - INFO - Update id=927125787 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:44:44,873 - aiogram.event - INFO - Update id=927125788 is handled. Duration 1092 ms by bot id=7437910630
+2026-02-11 19:44:55,007 - aiogram.event - INFO - Update id=927125789 is handled. Duration 500 ms by bot id=7437910630
+2026-02-11 19:44:59,434 - aiogram.event - INFO - Update id=927125790 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 19:45:14,653 - aiogram.event - INFO - Update id=927125791 is handled. Duration 1906 ms by bot id=7437910630
+2026-02-11 19:45:29,153 - aiogram.event - INFO - Update id=927125792 is handled. Duration 156 ms by bot id=7437910630
+2026-02-11 19:45:36,181 - aiogram.event - INFO - Update id=927125793 is handled. Duration 1422 ms by bot id=7437910630
+2026-02-11 19:45:40,846 - aiogram.event - INFO - Update id=927125794 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 19:46:10,344 - aiogram.event - INFO - Update id=927125795 is handled. Duration 1266 ms by bot id=7437910630
+2026-02-11 19:46:15,836 - aiogram.event - INFO - Update id=927125796 is handled. Duration 1515 ms by bot id=7437910630
+2026-02-11 19:46:21,255 - aiogram.event - INFO - Update id=927125797 is handled. Duration 1327 ms by bot id=7437910630
+2026-02-11 19:46:49,001 - aiogram.event - INFO - Update id=927125798 is handled. Duration 1140 ms by bot id=7437910630
+2026-02-11 19:46:51,012 - aiogram.event - INFO - Update id=927125799 is handled. Duration 1015 ms by bot id=7437910630
+2026-02-11 19:47:15,602 - aiogram.event - INFO - Update id=927125800 is handled. Duration 891 ms by bot id=7437910630
+2026-02-11 19:47:21,261 - aiogram.event - INFO - Update id=927125801 is handled. Duration 1797 ms by bot id=7437910630
+2026-02-11 19:47:24,214 - aiogram.event - INFO - Update id=927125802 is handled. Duration 483 ms by bot id=7437910630
+2026-02-11 19:47:27,503 - aiogram.event - INFO - Update id=927125803 is handled. Duration 937 ms by bot id=7437910630
+2026-02-11 19:48:20,406 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 19:48:20,410 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 19:48:20,679 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 20:15:06,114 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:15:06,115 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:15:06,118 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:15:06,118 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:15:06,129 - apscheduler.scheduler - INFO - Added job "daily_notification_job" to job store "default"
+2026-02-11 20:15:06,129 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 20:15:06,129 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 20:15:06,129 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 20:15:06,129 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 20:15:06,129 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 20:15:06,218 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 20:16:01,598 - aiogram.event - INFO - Update id=927125804 is handled. Duration 687 ms by bot id=7437910630
+2026-02-11 20:16:09,404 - aiogram.event - INFO - Update id=927125805 is handled. Duration 469 ms by bot id=7437910630
+2026-02-11 20:16:11,475 - aiogram.event - INFO - Update id=927125806 is handled. Duration 187 ms by bot id=7437910630
+2026-02-11 20:16:13,761 - aiogram.event - INFO - Update id=927125807 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:16:22,331 - aiogram.event - INFO - Update id=927125808 is handled. Duration 1061 ms by bot id=7437910630
+2026-02-11 20:16:26,867 - aiogram.event - INFO - Update id=927125809 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:16:31,162 - aiogram.event - INFO - Update id=927125810 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:16:36,751 - aiogram.event - INFO - Update id=927125811 is handled. Duration 375 ms by bot id=7437910630
+2026-02-11 20:16:42,105 - aiogram.event - INFO - Update id=927125812 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:16:44,351 - aiogram.event - INFO - Update id=927125813 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:17:05,099 - aiogram.event - INFO - Update id=927125814 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 20:17:09,923 - aiogram.event - INFO - Update id=927125815 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:32:51,500 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 20:32:51,503 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 20:32:51,756 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 20:33:06,059 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:33:06,059 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:33:06,060 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:33:06,060 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 20:33:06,063 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-11 20:33:06,063 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 20:33:06,063 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 20:33:06,063 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 20:33:06,063 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 20:33:06,623 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 20:33:06,707 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 20:34:12,160 - aiogram.event - INFO - Update id=927125816 is handled. Duration 562 ms by bot id=7437910630
+2026-02-11 20:34:18,896 - aiogram.event - INFO - Update id=927125817 is handled. Duration 438 ms by bot id=7437910630
+2026-02-11 20:34:28,658 - aiogram.event - INFO - Update id=927125818 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:34:41,446 - aiogram.event - INFO - Update id=927125819 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:34:49,297 - aiogram.event - INFO - Update id=927125820 is handled. Duration 2172 ms by bot id=7437910630
+2026-02-11 20:34:53,308 - aiogram.event - INFO - Update id=927125821 is handled. Duration 422 ms by bot id=7437910630
+2026-02-11 20:34:54,763 - aiogram.event - INFO - Update id=927125822 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 20:35:00,521 - aiogram.event - INFO - Update id=927125823 is handled. Duration 1063 ms by bot id=7437910630
+2026-02-11 20:35:13,968 - aiogram.event - INFO - Update id=927125824 is handled. Duration 702 ms by bot id=7437910630
+2026-02-11 20:35:21,557 - aiogram.event - INFO - Update id=927125825 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:35:33,272 - aiogram.event - INFO - Update id=927125826 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:35:39,669 - aiogram.event - INFO - Update id=927125827 is handled. Duration 984 ms by bot id=7437910630
+2026-02-11 20:35:43,867 - aiogram.event - INFO - Update id=927125828 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:36:17,165 - aiogram.event - INFO - Update id=927125829 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:36:36,644 - aiogram.event - INFO - Update id=927125830 is not handled. Duration 16 ms by bot id=7437910630
+2026-02-11 20:36:37,375 - aiogram.event - INFO - Update id=927125831 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:36:40,263 - aiogram.event - INFO - Update id=927125832 is handled. Duration 734 ms by bot id=7437910630
+2026-02-11 20:36:45,806 - aiogram.event - INFO - Update id=927125833 is handled. Duration 905 ms by bot id=7437910630
+2026-02-11 20:37:05,461 - aiogram.event - INFO - Update id=927125834 is handled. Duration 1108 ms by bot id=7437910630
+2026-02-11 20:37:15,745 - aiogram.event - INFO - Update id=927125835 is handled. Duration 718 ms by bot id=7437910630
+2026-02-11 20:37:20,077 - aiogram.event - INFO - Update id=927125836 is handled. Duration 1092 ms by bot id=7437910630
+2026-02-11 20:37:32,080 - aiogram.event - INFO - Update id=927125837 is handled. Duration 1717 ms by bot id=7437910630
+2026-02-11 20:37:45,515 - aiogram.event - INFO - Update id=927125838 is handled. Duration 1172 ms by bot id=7437910630
+2026-02-11 20:37:47,392 - aiogram.event - INFO - Update id=927125839 is handled. Duration 719 ms by bot id=7437910630
+2026-02-11 20:37:55,595 - aiogram.event - INFO - Update id=927125840 is handled. Duration 297 ms by bot id=7437910630
+2026-02-11 20:37:59,439 - aiogram.event - INFO - Update id=927125841 is handled. Duration 890 ms by bot id=7437910630
+2026-02-11 20:38:12,945 - aiogram.event - INFO - Update id=927125842 is handled. Duration 1405 ms by bot id=7437910630
+2026-02-11 20:38:14,995 - aiogram.event - INFO - Update id=927125843 is handled. Duration 827 ms by bot id=7437910630
+2026-02-11 20:38:20,065 - aiogram.event - INFO - Update id=927125844 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:38:31,868 - aiogram.event - INFO - Update id=927125845 is handled. Duration 827 ms by bot id=7437910630
+2026-02-11 20:38:33,212 - aiogram.event - INFO - Update id=927125846 is handled. Duration 515 ms by bot id=7437910630
+2026-02-11 20:38:34,608 - aiogram.event - INFO - Update id=927125847 is not handled. Duration 15 ms by bot id=7437910630
+2026-02-11 20:38:38,791 - aiogram.event - INFO - Update id=927125848 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 20:38:52,716 - aiogram.event - INFO - Update id=927125849 is handled. Duration 1125 ms by bot id=7437910630
+2026-02-11 20:38:59,284 - aiogram.event - INFO - Update id=927125850 is handled. Duration 875 ms by bot id=7437910630
+2026-02-11 20:39:02,201 - aiogram.event - INFO - Update id=927125851 is handled. Duration 640 ms by bot id=7437910630
+2026-02-11 20:39:09,343 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 20:39:09,345 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 20:39:09,601 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 21:11:27,992 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:11:27,993 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:11:27,996 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:11:27,996 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:11:27,998 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-11 21:11:27,998 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 21:11:27,998 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 21:11:27,998 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 21:11:27,999 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 21:11:28,620 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 21:11:28,689 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 21:12:27,287 - aiogram.event - INFO - Update id=927125852 is handled. Duration 594 ms by bot id=7437910630
+2026-02-11 21:12:30,883 - aiogram.event - INFO - Update id=927125853 is handled. Duration 750 ms by bot id=7437910630
+2026-02-11 21:12:35,227 - aiogram.event - INFO - Update id=927125854 is handled. Duration 1219 ms by bot id=7437910630
+2026-02-11 21:12:38,602 - aiogram.event - INFO - Update id=927125855 is handled. Duration 344 ms by bot id=7437910630
+2026-02-11 21:12:46,501 - aiogram.event - INFO - Update id=927125856 is handled. Duration 1672 ms by bot id=7437910630
+2026-02-11 21:12:52,582 - aiogram.event - INFO - Update id=927125857 is handled. Duration 1280 ms by bot id=7437910630
+2026-02-11 21:12:58,262 - aiogram.event - INFO - Update id=927125858 is handled. Duration 905 ms by bot id=7437910630
+2026-02-11 21:13:07,881 - aiogram.event - INFO - Update id=927125859 is handled. Duration 1015 ms by bot id=7437910630
+2026-02-11 21:13:13,576 - aiogram.event - INFO - Update id=927125860 is handled. Duration 217 ms by bot id=7437910630
+2026-02-11 21:13:16,860 - aiogram.event - INFO - Update id=927125861 is handled. Duration 1282 ms by bot id=7437910630
+2026-02-11 21:13:21,044 - aiogram.event - INFO - Update id=927125862 is handled. Duration 797 ms by bot id=7437910630
+2026-02-11 21:13:40,962 - aiogram.event - INFO - Update id=927125863 is handled. Duration 2125 ms by bot id=7437910630
+2026-02-11 21:13:54,600 - aiogram.event - INFO - Update id=927125864 is handled. Duration 1812 ms by bot id=7437910630
+2026-02-11 21:14:05,738 - aiogram.event - INFO - Update id=927125865 is handled. Duration 1109 ms by bot id=7437910630
+2026-02-11 21:14:22,949 - aiogram.event - INFO - Update id=927125866 is handled. Duration 1827 ms by bot id=7437910630
+2026-02-11 21:15:44,446 - aiogram.event - INFO - Update id=927125867 is handled. Duration 1093 ms by bot id=7437910630
+2026-02-11 21:16:05,821 - aiogram.event - INFO - Update id=927125868 is handled. Duration 1109 ms by bot id=7437910630
+2026-02-11 21:16:17,846 - aiogram.event - INFO - Update id=927125869 is handled. Duration 2937 ms by bot id=7437910630
+2026-02-11 21:16:22,631 - aiogram.event - INFO - Update id=927125870 is handled. Duration 202 ms by bot id=7437910630
+2026-02-11 21:16:31,358 - aiogram.event - INFO - Update id=927125871 is handled. Duration 1125 ms by bot id=7437910630
+2026-02-11 21:16:46,417 - aiogram.event - INFO - Update id=927125872 is handled. Duration 782 ms by bot id=7437910630
+2026-02-11 21:16:48,792 - aiogram.event - INFO - Update id=927125873 is handled. Duration 1079 ms by bot id=7437910630
+2026-02-11 21:16:55,794 - aiogram.event - INFO - Update id=927125874 is handled. Duration 859 ms by bot id=7437910630
+2026-02-11 21:17:00,113 - aiogram.event - INFO - Update id=927125875 is handled. Duration 1187 ms by bot id=7437910630
+2026-02-11 21:17:03,654 - aiogram.event - INFO - Update id=927125876 is handled. Duration 390 ms by bot id=7437910630
+2026-02-11 21:17:08,438 - aiogram.event - INFO - Update id=927125877 is handled. Duration 1312 ms by bot id=7437910630
+2026-02-11 21:17:33,113 - aiogram.event - INFO - Update id=927125878 is handled. Duration 2827 ms by bot id=7437910630
+2026-02-11 21:17:39,668 - aiogram.event - INFO - Update id=927125879 is handled. Duration 1047 ms by bot id=7437910630
+2026-02-11 21:17:55,416 - aiogram.event - INFO - Update id=927125880 is handled. Duration 907 ms by bot id=7437910630
+2026-02-11 21:17:58,985 - aiogram.event - INFO - Update id=927125881 is handled. Duration 1109 ms by bot id=7437910630
+2026-02-11 21:18:01,448 - aiogram.event - INFO - Update id=927125882 is handled. Duration 390 ms by bot id=7437910630
+2026-02-11 21:18:04,722 - aiogram.event - INFO - Update id=927125883 is handled. Duration 1750 ms by bot id=7437910630
+2026-02-11 21:18:11,991 - aiogram.event - INFO - Update id=927125884 is handled. Duration 1718 ms by bot id=7437910630
+2026-02-11 21:18:21,309 - aiogram.event - INFO - Update id=927125885 is handled. Duration 1234 ms by bot id=7437910630
+2026-02-11 21:19:13,156 - aiogram.event - INFO - Update id=927125886 is handled. Duration 1250 ms by bot id=7437910630
+2026-02-11 21:19:18,446 - aiogram.event - INFO - Update id=927125887 is handled. Duration 1421 ms by bot id=7437910630
+2026-02-11 21:19:36,607 - aiogram.event - INFO - Update id=927125888 is handled. Duration 547 ms by bot id=7437910630
+2026-02-11 21:19:43,859 - notifications - INFO - 📨 Начало массовой рассылки для 4 пользователей
+2026-02-11 21:19:45,556 - notifications - INFO - 📨 Рассылка завершена: ✅ 4 успешно, ❌ 0 ошибок, ⏭ 0 пропущено
+2026-02-11 21:19:45,685 - aiogram.event - INFO - Update id=927125889 is handled. Duration 2296 ms by bot id=7437910630
+2026-02-11 21:19:55,033 - aiogram.event - INFO - Update id=927125890 is handled. Duration 890 ms by bot id=7437910630
+2026-02-11 21:20:14,561 - aiogram.event - INFO - Update id=927125891 is handled. Duration 1562 ms by bot id=7437910630
+2026-02-11 21:20:27,668 - aiogram.event - INFO - Update id=927125892 is handled. Duration 1219 ms by bot id=7437910630
+2026-02-11 21:20:44,683 - aiogram.event - INFO - Update id=927125893 is handled. Duration 1234 ms by bot id=7437910630
+2026-02-11 21:20:47,188 - aiogram.event - INFO - Update id=927125894 is handled. Duration 1890 ms by bot id=7437910630
+2026-02-11 21:20:48,249 - aiogram.event - INFO - Update id=927125895 is handled. Duration 1530 ms by bot id=7437910630
+2026-02-11 21:20:51,563 - aiogram.event - INFO - Update id=927125896 is handled. Duration 1484 ms by bot id=7437910630
+2026-02-11 21:20:52,253 - aiogram.event - INFO - Update id=927125897 is handled. Duration 1858 ms by bot id=7437910630
+2026-02-11 21:20:55,411 - aiogram.event - INFO - Update id=927125898 is handled. Duration 734 ms by bot id=7437910630
+2026-02-11 21:20:59,725 - aiogram.event - INFO - Update id=927125899 is handled. Duration 1844 ms by bot id=7437910630
+2026-02-11 21:21:03,867 - aiogram.event - INFO - Update id=927125901 is handled. Duration 968 ms by bot id=7437910630
+2026-02-11 21:21:04,730 - aiogram.event - INFO - Update id=927125900 is handled. Duration 1937 ms by bot id=7437910630
+2026-02-11 21:21:10,620 - aiogram.event - INFO - Update id=927125902 is handled. Duration 343 ms by bot id=7437910630
+2026-02-11 21:21:19,418 - aiogram.event - INFO - Update id=927125903 is handled. Duration 1672 ms by bot id=7437910630
+2026-02-11 21:21:27,674 - aiogram.event - INFO - Update id=927125904 is handled. Duration 1327 ms by bot id=7437910630
+2026-02-11 21:21:41,486 - aiogram.event - INFO - Update id=927125905 is handled. Duration 312 ms by bot id=7437910630
+2026-02-11 21:21:57,355 - aiogram.event - INFO - Update id=927125906 is handled. Duration 750 ms by bot id=7437910630
+2026-02-11 21:30:52,847 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 21:30:52,853 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 21:30:53,109 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 21:32:24,992 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:32:24,992 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:32:24,995 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:32:24,995 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:32:24,998 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-11 21:32:24,999 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 21:32:24,999 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 21:32:24,999 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 21:32:24,999 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 21:32:25,502 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 21:32:25,895 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 21:32:50,227 - aiogram.event - INFO - Update id=927125907 is handled. Duration 984 ms by bot id=7437910630
+2026-02-11 21:33:15,062 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 21:33:15,068 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 21:33:15,310 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 21:56:33,691 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:56:33,692 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:56:33,694 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:56:33,694 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 21:56:33,699 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-11 21:56:33,699 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-11 21:56:33,699 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-11 21:56:33,699 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-11 21:56:33,699 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 21:56:34,229 - aiogram.dispatcher - INFO - Start polling
+2026-02-11 21:56:34,619 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-11 21:56:44,678 - aiogram.event - INFO - Update id=927125908 is not handled. Duration 0 ms by bot id=7437910630
+2026-02-11 21:56:56,126 - aiogram.event - INFO - Update id=927125909 is handled. Duration 530 ms by bot id=7437910630
+2026-02-11 21:57:03,921 - aiogram.event - INFO - Update id=927125910 is handled. Duration 687 ms by bot id=7437910630
+2026-02-11 21:57:07,863 - aiogram.event - INFO - Update id=927125911 is handled. Duration 1062 ms by bot id=7437910630
+2026-02-11 21:57:11,429 - aiogram.event - INFO - Update id=927125912 is handled. Duration 594 ms by bot id=7437910630
+2026-02-11 21:57:17,506 - aiogram.event - INFO - Update id=927125913 is handled. Duration 187 ms by bot id=7437910630
+2026-02-11 21:59:11,122 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-11 21:59:11,127 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-11 21:59:11,392 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-12 11:37:59,709 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 11:37:59,719 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 11:37:59,737 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 11:37:59,738 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 11:37:59,743 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-12 11:37:59,744 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-12 11:37:59,744 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-12 11:37:59,744 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-12 11:37:59,744 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-12 11:38:02,833 - aiogram.dispatcher - INFO - Start polling
+2026-02-12 11:38:05,534 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-12 11:38:12,158 - aiogram.event - INFO - Update id=927125915 is handled. Duration 1233 ms by bot id=7437910630
+2026-02-12 11:38:19,971 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-12 11:38:19,981 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-12 11:38:20,237 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-12 12:01:31,829 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:01:31,829 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:01:31,833 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:01:31,833 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:01:31,837 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-12 12:01:31,837 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-12 12:01:31,837 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-12 12:01:31,838 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-12 12:01:31,838 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-12 12:01:34,304 - aiogram.dispatcher - INFO - Start polling
+2026-02-12 12:01:43,733 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-12 12:01:46,099 - aiogram.event - INFO - Update id=927125916 is handled. Duration 2092 ms by bot id=7437910630
+2026-02-12 12:02:01,979 - aiogram.event - INFO - Update id=927125917 is handled. Duration 2515 ms by bot id=7437910630
+2026-02-12 12:02:34,259 - aiogram.event - INFO - Update id=927125918 is not handled. Duration 1032 ms by bot id=7437910630
+2026-02-12 12:02:34,260 - aiogram.event - ERROR - Cause exception while process update id=927125918 by bot id=7437910630
+TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\demobot\demo_mode.py", line 239, in demo_main
+    await callback.answer()
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\BotRUSEGEShram\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+2026-02-12 12:02:46,941 - aiogram.event - INFO - Update id=927125919 is handled. Duration 3250 ms by bot id=7437910630
+2026-02-12 12:03:40,192 - aiogram.event - INFO - Update id=927125920 is handled. Duration 6109 ms by bot id=7437910630
+2026-02-12 12:03:46,543 - aiogram.event - INFO - Update id=927125921 is handled. Duration 5203 ms by bot id=7437910630
+2026-02-12 12:04:10,606 - aiogram.event - INFO - Update id=927125922 is handled. Duration 1655 ms by bot id=7437910630
+2026-02-12 12:04:23,972 - aiogram.event - INFO - Update id=927125923 is handled. Duration 750 ms by bot id=7437910630
+2026-02-12 12:05:16,797 - aiogram.event - INFO - Update id=927125924 is handled. Duration 3594 ms by bot id=7437910630
+2026-02-12 12:05:31,820 - aiogram.event - INFO - Update id=927125925 is handled. Duration 2922 ms by bot id=7437910630
+2026-02-12 12:05:47,662 - aiogram.event - INFO - Update id=927125926 is handled. Duration 563 ms by bot id=7437910630
+2026-02-12 12:05:59,077 - aiogram.event - INFO - Update id=927125927 is handled. Duration 375 ms by bot id=7437910630
+2026-02-12 12:06:03,522 - aiogram.event - INFO - Update id=927125928 is handled. Duration 1250 ms by bot id=7437910630
+2026-02-12 12:06:08,649 - aiogram.event - INFO - Update id=927125929 is handled. Duration 842 ms by bot id=7437910630
+2026-02-12 12:06:51,051 - aiogram.event - INFO - Update id=927125930 is handled. Duration 4407 ms by bot id=7437910630
+2026-02-12 12:07:04,447 - aiogram.event - INFO - Update id=927125931 is handled. Duration 2984 ms by bot id=7437910630
+2026-02-12 12:07:17,650 - aiogram.event - INFO - Update id=927125932 is handled. Duration 265 ms by bot id=7437910630
+2026-02-12 12:08:14,164 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-12 12:08:14,179 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-12 12:08:14,448 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-12 12:08:40,665 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:08:40,666 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:08:40,669 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:08:40,669 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-12 12:08:40,674 - apscheduler.scheduler - INFO - Added job "NotificationManager.check_and_send_all_notifications" to job store "default"
+2026-02-12 12:08:40,675 - apscheduler.scheduler - INFO - Added job "check_expired_subscriptions" to job store "default"
+2026-02-12 12:08:40,675 - apscheduler.scheduler - INFO - Added job "save_data" to job store "default"
+2026-02-12 12:08:40,675 - apscheduler.scheduler - INFO - Added job "cleanup_old_duels" to job store "default"
+2026-02-12 12:08:40,675 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-12 12:08:47,445 - aiogram.dispatcher - INFO - Start polling
+2026-02-12 12:08:47,843 - aiogram.dispatcher - INFO - Run polling for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'
+2026-02-12 12:08:54,060 - aiogram.event - INFO - Update id=927125933 is handled. Duration 1609 ms by bot id=7437910630
+2026-02-12 12:13:32,303 - aiogram.event - INFO - Update id=927125934 is handled. Duration 1047 ms by bot id=7437910630
+2026-02-12 12:25:14,027 - aiogram.event - INFO - Update id=927125935 is handled. Duration 1250 ms by bot id=7437910630
+2026-02-12 12:38:40,689 - apscheduler.executors.default - INFO - Running job "cleanup_old_duels (trigger: interval[0:30:00], next run at: 2026-02-12 13:08:40 MSK)" (scheduled at 2026-02-12 12:38:40.669359+03:00)
+2026-02-12 12:38:40,694 - __main__ - INFO - 🧹 Очистка старых дуэлей...
+2026-02-12 12:38:40,695 - __main__ - INFO - ✅ Старых дуэлей не найдено
+2026-02-12 12:38:40,696 - apscheduler.executors.default - INFO - Job "cleanup_old_duels (trigger: interval[0:30:00], next run at: 2026-02-12 13:08:40 MSK)" executed successfully
+2026-02-12 12:39:54,612 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-12 12:39:54,623 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-12 12:39:54,889 - aiogram.dispatcher - INFO - Polling stopped for bot @OPEN_COFFE_BOT id=7437910630 - 'OPENCOFFEE'

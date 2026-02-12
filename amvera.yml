@@ -1,0 +1,16 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11
+
+build:
+  requirementsPath: requirements.txt
+  buildCommand: pip install -r requirements.txt
+
+run:
+  scriptName: demo_bot.py
+  containerPort: 80
+  environmentVariables:
+    BOT_TOKEN: "ВАШ_ТОКЕН_СЮДА"
+    ADMIN_ID: "ВАШ_ID_СЮДА"

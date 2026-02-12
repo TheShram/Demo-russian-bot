@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+bot.log
+
+# Environment variables
+.env
+.env.local
+.secrets/
+
+# Amvera
+.amvera/
+deploy/
+
+# Data files (но сохраняем структуру)
+data/
+!data/bot_data/
+!data/stats/
+!data/bot_data/.gitkeep
+!data/stats/.gitkeep
+
+# Themes (сохраняем)
+!themes/
+!themes/*.json
+
+# Временные файлы
+temp/
+tmp/
